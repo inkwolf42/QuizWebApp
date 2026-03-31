@@ -2,12 +2,17 @@ import { router } from "@inertiajs/react";
 import { PropsWithChildren } from "react";
 
 
-export default function LogedIn({children,title}:PropsWithChildren<{
-    title:string
+export default function LogedIn({children,title,isAdmin=false}:PropsWithChildren<{
+    title:string,
+    isAdmin?:boolean
 }>) {
 
     function onLogout(){
-        router.post("/user_logout")
+        if(isAdmin){
+            router.post("/admin_logout")
+        }else{
+            router.post("/user_logout")
+        }
     }
 
     return(

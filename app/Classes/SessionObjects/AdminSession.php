@@ -2,25 +2,17 @@
 
 namespace App\Classes\SessionObjects;
 
+use App\Classes\Cashable\AdminCachable;
 use App\Classes\ResponceObjects\GameReponceObject;
 use App\Classes\ResponceObjects\QuizAttemptResponceObject;
-use App\Classes\ResponceObjects\QuizResponceObject;
-use App\Models\Quiz;
-use Exception;
-use Illuminate\Database\Eloquent\Collection;
-use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Cache;
-use Symfony\Component\HttpKernel\Exception\HttpException;
 
-class QuizSessionObject extends CachableSession{
+
+class AdminSession extends CachableSession{
     private $cache = null;
 
-    public function __construct(protected Request $request){}
-
-
     public function key():string{
-        return "quizs";
+        return "admin_session";
     }
 
     public function get(){
@@ -28,7 +20,7 @@ class QuizSessionObject extends CachableSession{
 
         if(!$this->has())return null;
 
-        $this->cache = $this->loadFromCache(new GameReponceObject(new CachableArray([],new QuizAttemptResponceObject())));
+        $this->cache = $this->loadFromCache(new AdminCachable(""));
 
         // dd($this->cache);
 

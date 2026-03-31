@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Classes\SessionObjects;
+namespace App\Classes\Cashable;
 
 interface Cachable{
     public function toCache() : array;

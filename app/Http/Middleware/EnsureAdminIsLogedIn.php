@@ -2,13 +2,12 @@
 
 namespace App\Http\Middleware;
 
-use App\Classes\SessionObjects\UsernameSessionObject;
+use App\Classes\SessionObjects\AdminSession;
 use Closure;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Cache;
 use Symfony\Component\HttpFoundation\Response;
 
-class NameIsNotSet
+class EnsureAdminIsLogedIn
 {
     /**
      * Handle an incoming request.
@@ -17,13 +16,10 @@ class NameIsNotSet
      */
     public function handle(Request $request, Closure $next): Response
     {
-        $usernameSessionobject = new UsernameSessionObject($request);
-
-        if(
-            $usernameSessionobject->has()
-        ){
-            return redirect()->route("config");
+        $adminSession = new AdminSession($request);
+        if($adminSession->hasCache()){
+            return $next($request);
         }
-        return $next($request);
+        return redirect()->route("home");
     }
 }

@@ -2,7 +2,7 @@
 
 namespace App\Classes\ResponceObjects;
 
-use App\Classes\SessionObjects\Cachable;
+use App\Classes\Cashable\Cachable;
 use App\Models\Quiz;
 use JsonSerializable;
 

@@ -2,6 +2,7 @@
 
 namespace App\Classes\SessionObjects;
 
+use App\Classes\Cashable\Cachable;
 use Exception;
 
 class CachableArray implements Cachable{

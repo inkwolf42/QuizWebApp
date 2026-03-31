@@ -2,8 +2,8 @@
 
 namespace App\Classes\ResponceObjects;
 
+use App\Classes\Cashable\Cachable;
 use App\Classes\ResponceObjects\QuizAttemptResponceObject;
-use App\Classes\SessionObjects\Cachable;
 use App\Classes\SessionObjects\CachableArray;
 use JsonSerializable;
 

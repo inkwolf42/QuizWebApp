@@ -1,3 +1,5 @@
+import { Eye, EyeOff } from "lucide-react";
+import { useState } from "react";
 
 interface LabeledInputParams{
     name:string;
@@ -10,21 +12,43 @@ interface LabeledInputParams{
     requierd?:boolean;
     min?:number;
     max?:number;
+    labelsize?:string;
 }
 
 export default function LabeldInput(params:LabeledInputParams) {
+
+    const [show,setShow] = useState(false)
+
     return <div>
         <div
-            className="flex flex-row items-center justify-center gap-7"
+            className="flex flex-row items-center  gap-7 "
         >
-            <label className="font-bold" htmlFor={params.name}>{params.label ?? params.name}</label>
+            <label className={`font-bold ${params.labelsize!=null && params.labelsize}`} htmlFor={params.name}>{params.label ?? params.name}</label>
+            <div
+                className="relative  flex-10"
+            >
             <input
-                className="border-b-2 bg-gray-50 shadow focus:bg-gray-100 focus:border-amber-400 transition-all outline-none p-1 rounded-t-sm"
-            required={params.requierd??true} min={params.min??0} max={params.max??999} type={params.type ?? "text"} name={params.name} id={params.name} value={params.data} onChange={(e)=>params.OnChange(e.target.value)}/>
+                className="border-b-2 bg-gray-100 shadow focus:bg-gray-200 focus:border-amber-400 transition-all outline-none p-1 rounded-t-sm w-full"
+                required={params.requierd??true}
+                min={params.min??0}
+                max={params.max??999}
+                type={params.type=="password"?(show?"text":"password"):(params.type ?? "text")}
+                name={params.name}
+                id={params.name}
+                value={params.data}
+                onChange={(e)=>params.OnChange(e.target.value)}
+            />
+            {params.type=="password" && <button
+                onClick={()=>setShow(prev=>!prev)}
+                className="absolute right-2 top-1/2 -translate-y-1/2 cursor-pointer"
+            >
+                {!show?(<EyeOff size={18}/>):(<Eye size={18}/>)}
+            </button>}
+            </div>
         </div>
-        {params.error && <p
-            className="text-red-300 text-sm pt-2 "
-        >{params.error}</p>}
+        <p
+            className="text-red-300 text-sm pt-2"
+        >{params.error}</p>
 
     </div>
 }

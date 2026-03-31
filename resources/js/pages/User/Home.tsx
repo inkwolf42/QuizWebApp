@@ -1,5 +1,5 @@
 import LabeldInput from '@/components/LabeledInput';
-import { Head, router, useForm } from '@inertiajs/react';
+import { Head, Link, router, useForm } from '@inertiajs/react';
 import { FormEvent, SyntheticEvent } from 'react';
 
 
@@ -8,8 +8,6 @@ export default function Home({targetUrl}:{targetUrl:string}) {
         "name":""
     })
 
-    console.log(errors);
-
 
     function submit(e:SyntheticEvent){
         e.preventDefault();
@@ -17,14 +15,14 @@ export default function Home({targetUrl}:{targetUrl:string}) {
     }
 
     return (
-        <div className='h-screen flex flex-col items-center p-10 gap-10 '>
+        <div className='page-default'>
 
-            <h1 className='title text-6xl text-shadow-lg text-gray-200'>Home</h1>
+            <h1 className='title title-big'>Home</h1>
 
             <div className='flex flex-col'>
                 <h2 className='title text-2xl ml-4 mr-auto border-b-2'>About</h2>
                 <p className='bubble bg-gray-50 mt-2'>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique aperiam qui laborum deserunt molestiae autem blanditiis, voluptate nisi velit expedita obcaecati inventore aliquam architecto, repellat debitis optio. Commodi, doloribus quia!
+                    Lorem ipsum dolor, sit amet <Link className='cursor-text' href={"admin_login_page"}>consectetur</Link> adipisicing elit. Similique aperiam qui laborum deserunt molestiae autem blanditiis, voluptate nisi velit expedita obcaecati inventore aliquam architecto, repellat debitis optio. Commodi, doloribus quia!
                 </p>
             </div>
 
@@ -36,7 +34,7 @@ export default function Home({targetUrl}:{targetUrl:string}) {
                 </p>
             </div>
 
-            <form className='flex flex-col flex-1 ' onSubmit={submit}>
+            <form className='flex flex-col flex-1 items-center justify-center' onSubmit={submit}>
                 <h1 className='title text-2xl mx-auto border-b-2'>
                     Login
                 </h1>
