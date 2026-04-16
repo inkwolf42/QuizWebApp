@@ -22,7 +22,6 @@ export default function Records({recordes,filters,orderByList}:{recordes:Paginat
 
     const isFirstRender = useRef(true);
 
-    console.log(recordes);
 
 
     useEffect(()=>{

@@ -7,7 +7,7 @@ services:
     environment:
       POSTGRES_DB: quiz_db
       POSTGRES_USER: quiz_user
-      POSTGRES_PASSWORD: test
+      POSTGRES_PASSWORD: Z9n26a6fYi4ZsIhNrYWvEKli7cBlji7hxRcI1hQe1VC1oiXbKH
     ports:
       - "5433:5432"
     volumes:
