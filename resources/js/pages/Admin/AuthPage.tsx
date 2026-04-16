@@ -3,10 +3,10 @@ import { useForm } from "@inertiajs/react";
 import { useState } from "react";
 
 export default function AuthPage({targetUrl}:{targetUrl:string}) {
-    const [confirmPassword,setConfirmPassword] = useState({
-        value:"",
-        error:""
-    })
+    // const [confirmPassword,setConfirmPassword] = useState({
+    //     value:"",
+    //     error:""
+    // })
     const {data,setData,post,errors} = useForm({
         name:"",
         password:"",
@@ -23,18 +23,18 @@ export default function AuthPage({targetUrl}:{targetUrl:string}) {
     function Submit(e:any) {
         e.preventDefault()
         // alert("nn")
-        if(data.password!==confirmPassword.value){
-            setConfirmPassword(prev=>({...prev,error:"Passwords are not the same"}))
-            return;
-        }
+        // if(data.password!==confirmPassword.value){
+        //     setConfirmPassword(prev=>({...prev,error:"Passwords are not the same"}))
+        //     return;
+        // }
         post(targetUrl)
     }
 
     return (
-        <div className="page-default">
-            <form onSubmit={Submit} className="bubble bg-gray-50 p-5 w-1/2 m-auto flex flex-col gap-10">
+        <div className="flex justify-center items-center h-screen">
+            <form onSubmit={Submit} className="bubble bg-gray-50 p-5 max-w-3xl md:w-5/6 w-full mx-5 md:m-auto my-auto flex flex-col sm:gap-10 gap-15">
                 <h1 className="title title-big">Login Page</h1>
-                <div className="flex flex-col  gap-5 mx-auto ">
+                <div className="flex flex-col gap-5 md:mx-20 mx-5 ">
 
                 <LabeldInput
                     name="name"
@@ -43,7 +43,7 @@ export default function AuthPage({targetUrl}:{targetUrl:string}) {
                     label="Name : "
                     error={errors.name}
                     requierd
-                    labelsize="flex-3"
+                    labelsize="flex-4"
                 />
                 <LabeldInput
                     name="password"
@@ -53,9 +53,9 @@ export default function AuthPage({targetUrl}:{targetUrl:string}) {
                     error={errors.password}
                     type="password"
                     requierd
-                    labelsize="flex-3"
+                    labelsize="flex-4"
                 />
-                <LabeldInput
+                {/* <LabeldInput
                     name="confirm_password"
                     data={confirmPassword.value}
                     OnChange={(value:string)=>setConfirmPassword(prev=>({error:"",value:value}))}
@@ -64,7 +64,7 @@ export default function AuthPage({targetUrl}:{targetUrl:string}) {
                     type="password"
                     requierd
                     labelsize="flex-3"
-                />
+                /> */}
                 </div>
 
                 <div className="flex flex-col-reverse items-end">

@@ -1,12 +1,16 @@
 <?php
 
+use App\Http\Controllers\AdminProfilePageController;
+use App\Http\Controllers\AdminProfileUpdateController;
 use App\Http\Controllers\Auth\AdminAuthController;
 use App\Http\Controllers\Auth\UserLoginController;
 use App\Http\Controllers\Auth\UserLogoutController;
+use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\ConfigController;
 use App\Http\Controllers\GameController;
 use App\Http\Controllers\HomePageController;
 use App\Http\Controllers\QuizController;
+use App\Http\Controllers\RecordsPageController;
 use App\Http\Controllers\ResultController;
 use App\Http\Middleware\EnsureAdminIsLogedIn;
 use App\Http\Middleware\EnsureAdminIsLogedOut;
@@ -34,6 +38,18 @@ Route::middleware(EnsureAdminIsLogedIn::class)->group(function(){
     Route::get("/admin_quiz/edit/{quiz}",[QuizController::class,"edit"])->name("admin.dashboard.quiz.edit");
     Route::put("/admin_quiz/edit/{quiz}",[QuizController::class,"update"])->name("admin.dashboard.quiz.edit");
     Route::delete("/admin_quiz/{quiz}",[QuizController::class,"destroy"])->name("admin.dashboard.quiz.delete");
+
+    Route::get("/admin/categories",[CategoryController::class,"index"])->name("admin.dashboard.categories");
+    Route::get("/admin/category",[CategoryController::class,"create"])->name("admin.dashboard.categories.create");
+    Route::get("/admin/category/{category}",[CategoryController::class,"edit"])->name("admin.dashboard.categories.edit");
+    Route::post("/admin/category",[CategoryController::class,"store"])->name("admin.dashboard.categories.store");
+    Route::put("/admin/category/{category}",[CategoryController::class,"update"])->name("admin.dashboard.categories.update");
+    Route::delete("/admin/category/{category}",[CategoryController::class,"destroy"])->name("admin.dashboard.categories.delete");
+
+    Route::get("/admin/profile",AdminProfilePageController::class)->name("admin.dashboard.profile");
+    Route::post("/admin/profile",AdminProfileUpdateController::class)->name("admin.dashboard.profile");
+
+    Route::get("/admin/records",RecordsPageController::class)->name("admin.dashboard.records");
 });
 
 Route::middleware(NameIsSet::class)->group(function(){

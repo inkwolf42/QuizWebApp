@@ -2,6 +2,7 @@
 
 namespace App\Classes\ResponceObjects;
 
+use App\Classes\ArraySheffler;
 use App\Classes\Cashable\Cachable;
 use App\Models\Quiz;
 use JsonSerializable;
@@ -14,6 +15,7 @@ final class QuizAttemptResponceObject implements JsonSerializable,Cachable
         if($quizId==-1)return;
         if ($choices==null){
             $this->choices = Quiz::find($quizId)->choices->map(fn($item)=>new ChoiceResponceObject($item->id))->all();
+            $this->choices = (new ArraySheffler(3))->shuffle($this->choices);
         }
         // dd($this->choices);
     }
@@ -64,12 +66,19 @@ final class QuizAttemptResponceObject implements JsonSerializable,Cachable
         if(!$this->attampted)return 0;
         $quiz = Quiz::find($this->quizId);
 
-        foreach($quiz->choices as $index=>$answer){
-            if ($this->choices[$index]->isSelected()!=$answer->is_correct)return -1;
+        $tmp = [];
+        foreach ($quiz->choices as $choice) {
+            $tmp[$choice->id] = $choice->is_correct;
+        }
+
+        foreach($this->choices as $choice){
+            if ($choice->isSelected()!=$tmp[$choice->getId()])return -1;
         }
 
         return 1;
     }
+
+    public function getId(){return $this->quizId;}
 
 
 }

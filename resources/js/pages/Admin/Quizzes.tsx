@@ -1,40 +1,74 @@
 import PageLink from "@/components/PageLink";
 import QuizAdminListItem from "@/components/QuizAdminListItem";
-import AdminNavBar from "@/layouts/Adminlayout";
+import SearchBar from "@/components/SearchBar";
+import AdminNavBar from "@/layouts/AdminNavBar";
 import LogedIn from "@/layouts/LogedIn";
-import { Paginated, QuizAdminIF, QuizIF } from "@/lib/responseIF";
-// import { route } from "@/types/global";
+import { Filter, Paginated, QuizAdminIF, QuizIF } from "@/lib/responseIF";
 import { Link, router } from "@inertiajs/react";
 import { Plus } from "lucide-react";
+import { useState, useEffect, useRef } from "react";
 
-export default function Quizzes({page}:{page:Paginated<QuizAdminIF>}) {
-    // console.log(page.data[0]);
+export default function Quizzes({page,filters,orderByList}:{page:Paginated<QuizAdminIF>,
+    filters:Filter,
+    orderByList:Array<string>}) {
 
+    const [filtersObj,setFilters] = useState({
+        orderDirection:filters.orderDirection ??"desc",
+        orderBy:filters.orderBy ?? orderByList[0],
+        search:filters.search ?? ""
+    });
+
+    const isFirstRender = useRef(true);
+
+    useEffect(()=>{
+        if (isFirstRender.current) {
+            isFirstRender.current = false;
+            return;
+        }
+        Filter()
+    },[filtersObj])
+
+    function Filter() {
+        router.get(route("admin.dashboard"),filtersObj,{
+            preserveState:true,
+            replace:true
+        });
+    }
     function deleteQuiz(quiz:QuizAdminIF){
         if(confirm(`Are you sure you want to delete "${quiz.question}"`)){
             router.delete(route("admin.dashboard.quiz.delete",quiz.id))
         }
     }
 
+    function editQuiz(quiz:QuizAdminIF){
+        router.get(route("admin.dashboard.quiz.edit",quiz.id))
+    }
+
     return (
         <LogedIn title="Admin Dashboard" isAdmin>
 
 
-        <div className="w-4/5 mx-auto py-5 flex flex-col gap-5">
+        <div className="sm:w-4/5 mx-3 sm:mx-auto py-5 flex flex-col gap-5">
             <Link
                 href={route("admin.dashboard.quiz.create")}
-                className="bg-amber-100 hover:bg-amber-300 cursor-pointer transition-colors rounded-2xl p-5 shadow fixed bottom-10 right-10"
+                className="bg-amber-100 hover:bg-amber-300 cursor-pointer transition-colors rounded-2xl p-5 shadow fixed md:bottom-10 bottom-5 md:right-10 right-5"
             >
                 <Plus/>
             </Link>
 
             <AdminNavBar page="quizzes"/>
-
+            <SearchBar
+                value={filtersObj}
+                onChange={(param,value)=>setFilters(prev=>({...prev,[param]:value}))}
+                onButtonPreesed={Filter}
+                orderByList={orderByList}
+            />
             <div className="flex flex-col gap-5">
                 <div className="flex flex-col gap-4 bubble bg-gray-100">
                     {
                         page.data.map(item=>(
                             <QuizAdminListItem
+                                onEdit={()=>editQuiz(item)}
                                 onDelete={()=>deleteQuiz(item)}
                                 key={item.id}
                                 quiz={item}

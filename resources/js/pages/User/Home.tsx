@@ -15,7 +15,7 @@ export default function Home({targetUrl}:{targetUrl:string}) {
     }
 
     return (
-        <div className='page-default'>
+        <div className='page-default '>
 
             <h1 className='title title-big'>Home</h1>
 

@@ -13,6 +13,7 @@ interface LabeledInputParams{
     min?:number;
     max?:number;
     labelsize?:string;
+    placeHolder?:string;
 }
 
 export default function LabeldInput(params:LabeledInputParams) {
@@ -21,7 +22,7 @@ export default function LabeldInput(params:LabeledInputParams) {
 
     return <div>
         <div
-            className="flex flex-row items-center  gap-7 "
+            className="flex md:flex-row flex-col md:items-center  gap-7 "
         >
             <label className={`font-bold ${params.labelsize!=null && params.labelsize}`} htmlFor={params.name}>{params.label ?? params.name}</label>
             <div
@@ -36,6 +37,7 @@ export default function LabeldInput(params:LabeledInputParams) {
                 name={params.name}
                 id={params.name}
                 value={params.data}
+                placeholder={params.placeHolder??""}
                 onChange={(e)=>params.OnChange(e.target.value)}
             />
             {params.type=="password" && <button
@@ -47,7 +49,7 @@ export default function LabeldInput(params:LabeledInputParams) {
             </div>
         </div>
         <p
-            className="text-red-300 text-sm pt-2"
+            className="error pt-2"
         >{params.error}</p>
 
     </div>

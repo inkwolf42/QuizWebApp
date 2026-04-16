@@ -2,9 +2,15 @@
 
 namespace App\Http\Controllers;
 
+use App\Classes\Logger\QuizChangeLogger;
+use App\Classes\QueryParser\QueryModelParser;
+use App\Classes\QueryParser\QueryOrderParser;
+use App\Classes\QueryParser\QuerySearchParser;
+use App\Classes\SessionObjects\AdminSession;
 use App\Enums\DifficultyEnum;
 use App\Models\Category;
 use App\Models\Quiz;
+use App\Models\User;
 use App\Rules\AnswerArrayConditional;
 use App\Rules\CategoryOrMinusOne;
 use Illuminate\Http\Request;
@@ -17,13 +23,26 @@ class QuizController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function index(Request $request)
     {
-        $quizzes = Quiz::with("category")->paginate(10);
+
+        $query = new QueryModelParser(Quiz::query());
+
+        $query = new QuerySearchParser($query,$request,"question");
+
+        $query = new QueryOrderParser($query,$request);
+
+        $quizzes = $query->parse()->with("category")->paginate(10)->withQueryString();
 
         return Inertia::render("Admin/Quizzes",[
             "page"=>$quizzes,
-            // "quiz_show_url"=>route("admin.dashboard.quiz")
+            "filters"=>$request->only([
+                "orderBy",
+                "orderDirection",
+                "search",
+                "category",
+            ]),
+            "orderByList"=>Quiz::orederByList()
         ]);
     }
 
@@ -64,6 +83,12 @@ class QuizController extends Controller
             "difficulty"=>$data["difficulty"],
             "has_multi_answer"=>$data["has_multi_answer"],
         ]);
+
+        $adminSession = new AdminSession($request);
+        $admin = User::find($adminSession->get()->getId());
+        $logger = QuizChangeLogger::getInstance();
+        $logger->logCreate($request,$admin,$quiz);
+
 
         foreach ($data["choices"] as $qData) {
             $quiz->choices()->create([
@@ -127,6 +152,12 @@ class QuizController extends Controller
             "has_multi_answer"=>$data["has_multi_answer"],
         ]);
 
+
+        $adminSession = new AdminSession($request);
+        $admin = User::find($adminSession->get()->getId());
+        $logger = QuizChangeLogger::getInstance();
+        $logger->logChange($request,$admin,$quiz);
+
         DB::transaction(function () use($quiz,$data) {
             $quiz->choices()->delete();
             foreach ($data["choices"] as $qData) {
@@ -143,8 +174,14 @@ class QuizController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Quiz $quiz)
+    public function destroy(Request $request,Quiz $quiz)
     {
+
+        $adminSession = new AdminSession($request);
+        $admin = User::find($adminSession->get()->getId());
+        $logger = QuizChangeLogger::getInstance();
+        $logger->logDeleted($request,$admin,$quiz);
+
         $quiz->delete();
 
         return redirect()->route('admin.dashboard');

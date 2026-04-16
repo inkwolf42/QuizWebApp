@@ -30,6 +30,9 @@ final class CategoryQuizSelector extends QuizSelector{
             );
         }
 
+        $shuffler = new ArraySheffler();
+        $arr = $shuffler->shuffle($arr);
+
         return array_slice($arr,0,$this->size);
     }
 }

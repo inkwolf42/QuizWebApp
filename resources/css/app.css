@@ -13,6 +13,9 @@
 .button-default{
     @apply p-3 rounded-2xl shadow w-48 transition-colors flex justify-center items-center cursor-pointer
 }
+.button-default-sm{
+    @apply p-3 rounded-2xl shadow transition-colors flex justify-center items-center cursor-pointer
+}
 .title{
     @apply font-extrabold tracking-widest uppercase
 }
@@ -20,7 +23,7 @@
     @apply p-5 rounded-2xl shadow
 }
 .page-default{
-    @apply h-screen flex flex-col items-stretch p-10 gap-10 w-4/5 mx-auto
+    @apply h-screen flex flex-col items-stretch py-10 gap-10 mx-10 sm:mx-30
 }
 .title-big{
     @apply text-6xl text-shadow-lg text-gray-200 text-center

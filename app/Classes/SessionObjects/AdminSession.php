@@ -20,7 +20,7 @@ class AdminSession extends CachableSession{
 
         if(!$this->has())return null;
 
-        $this->cache = $this->loadFromCache(new AdminCachable(""));
+        $this->cache = $this->loadFromCache(new AdminCachable(-1,""));
 
         // dd($this->cache);
 

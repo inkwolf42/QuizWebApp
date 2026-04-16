@@ -44,6 +44,10 @@ class GameController extends Controller
 
         $game = $quizSession->get();
 
+        if($game->hasEnded()){
+            return redirect()->route("quiz.finish");
+        }
+
         // dd($game);
 
         $game->setChoices($id,$validated["choices"]);
@@ -63,13 +67,15 @@ class GameController extends Controller
 
         $game = $quizSession->get();
 
-        $output = $game->evaluation();
+        $result = $game->evaluation();
 
         $quizSession->forogtCache();
 
         $resultSession = new ResultSessionObject($request);
 
-        $resultSession->set($output);
+        $result->saveToDatabase($request);
+
+        $resultSession->set($result);
 
         return redirect()->route("result");
     }

@@ -17,7 +17,7 @@ export default function LogedIn({children,title,isAdmin=false}:PropsWithChildren
 
     return(
         <div className='h-dvh w-screen flex flex-col'>
-            <header className='bg-gray-50 px-5 py-2 shadow-md flex flex-row justify-between items-center'>
+            <header className='bg-gray-50 px-5 py-2 shadow-md flex flex-row justify-between items-center '>
                 <h1 className='font-extrabold text-4xl tracking-wider uppercase'>
                     {title}
                 </h1>

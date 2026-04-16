@@ -2,34 +2,31 @@
 
 namespace Database\Seeders;
 
-use App\Models\Category;
-use App\Models\Choice;
-use App\Models\Quiz;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use App\Models\Category;
 
 class CategorySeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     */
-    public function run(): void
+    public function run()
     {
-        Category::factory()
-        ->count(5)
-        ->has(
-            Quiz::factory()
-            ->count(20)
-            ->has(
-                Choice::factory()->count(3)
-            )
-            ->has(
-                Choice::factory()->state([
-                    "answer"=>"answer",
-                    "is_correct"=>true
-                ])->count(1)
-            )
-        )
-        ->create();
+        $file = database_path('seeders/categories.json');
+
+        if (!file_exists($file) || !is_readable($file)) {
+            $this->command->error('categories.json not found or not readable.');
+            return;
+        }
+
+        $categories = json_decode(file_get_contents($file), true);
+
+
+
+        foreach ($categories as $data) {
+            // $this->command->info($data['name']);
+            Category::create(
+                ['name' => $data['name'],'icon' => $data['icon'], 'color' => $data['color']]
+            );
+        }
+
+        $this->command->info('Categories imported successfully!');
     }
 }

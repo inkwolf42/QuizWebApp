@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Mathematics",
+    "icon": "calculator",
+    "color": "#3B82F6"
+  },
+  {
+    "name": "Literature",
+    "icon": "book",
+    "color": "#8B4513"
+  },
+  {
+    "name": "Science",
+    "icon": "flask",
+    "color": "#10B981"
+  },
+  {
+    "name": "Technology",
+    "icon": "laptop",
+    "color": "#6366F1"
+  },
+  {
+    "name": "Programming",
+    "icon": "code",
+    "color": "#8B5CF6"
+  },
+  {
+    "name": "Music",
+    "icon": "music",
+    "color": "#EC4899"
+  },
+  {
+    "name": "Gaming",
+    "icon": "gamepad",
+    "color": "#F59E0B"
+  },
+  {
+    "name": "Physics",
+    "icon": "atom",
+    "color": "#06B6D4"
+  },
+  {
+    "name": "Computer Science",
+    "icon": "cpu",
+    "color": "#1E40AF"
+  },
+  {
+    "name": "Art & Design",
+    "icon": "palette",
+    "color": "#F472B6"
+  },
+  {
+    "name": "History",
+    "icon": "history",
+    "color": "#92400E"
+  },
+  {
+    "name": "Languages",
+    "icon": "languages",
+    "color": "#14B8A6"
+  },
+  {
+    "name": "Geography",
+    "icon": "globe",
+    "color": "#059669"
+  },
+  {
+    "name": "Biology",
+    "icon": "microscope",
+    "color": "#22C55E"
+  },
+  {
+    "name": "Astronomy",
+    "icon": "telescope",
+    "color": "#1E3A8A"
+  },
+  {
+    "name": "Health & Fitness",
+    "icon": "activity",
+    "color": "#EF4444"
+  }
+]

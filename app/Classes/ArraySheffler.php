@@ -7,20 +7,27 @@ final class ArraySheffler{
     {}
 
     public function shuffle(array $arr){
-        $n = count($arr);
-        for ($i=0; $i < $this->times; $i++) {
-            $off = rand(1,5);
-            $j = $off*2;
-            $prev = $arr[$off];
-            while($j<$n){
-                $temp = $arr[$j];
-                $arr[$j] = $prev;
-                $prev = $temp;
 
-                $j+=$off;
+        for ($i=0; $i < $this->times; $i++) {
+            $n = count($arr);
+            $arr1 = array_splice($arr,0,$n/2);
+            $arr2 = $arr;
+
+            $tmp = [];
+
+            while(!empty($arr1) && !empty($arr2)){
+                if(rand(0,1)){
+                    $tmp[] = array_pop($arr1);
+                }else{
+                    $tmp[] = array_pop($arr2);
+                }
             }
-            $arr[$off] = $prev;
+
+            $arr = array_merge($tmp , $arr1 , $arr2);
+
         }
+
+        return $arr;
     }
 }
 

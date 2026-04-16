@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Classes\Cashable\AdminCachable;
+use App\Classes\Logger\AdminLogginLogger;
 use App\Classes\SessionObjects\AdminSession;
 use App\Classes\SessionObjects\UsernameSessionObject;
 use App\Http\Controllers\Controller;
@@ -29,11 +30,19 @@ class AdminAuthController extends Controller
             'password' => ['required', 'string'],
         ]);
 
+        $logger = AdminLogginLogger::getInstance();
+
         if(Auth::attempt($request->only('name', 'password'))){
+            $request->session()->regenerate();
+            $user = Auth::user();
             $adminSession = new AdminSession($request);
-            $adminSession->set(new AdminCachable($data["name"]));
+            $adminSession->set(new AdminCachable($user->id,$user->name));
+
+            $logger->logSuccses($request,$user);
+
             return redirect()->route("admin.dashboard");
         }
+        $logger->logAttmpt($request,$data["name"]);
         throw ValidationException::withMessages([
             "credentials"=>"Invalid credentials",
         ]);

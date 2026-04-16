@@ -1,36 +1,25 @@
+import { getIcon } from "@/lib/iconList"
+import { CategoryIF } from "@/lib/responseIF"
+
 interface CategoryItemParams{
-    name:string
-    id:number
+    category:CategoryIF
     onClick:(value:number)=>void
     selected:boolean
 }
 
 
-const getRandomNonGreenColor = (seed:number) => {
-  // 1. Create a pseudo-random hue (0-360) based on your seed
-  // We use a simple multiplier to ensure the 'random' number is spread out
-  let hue = (seed * 137.5) % 360;
-
-  // 2. If the hue falls in the green range (70 to 170), shift it out.
-  // We can just add 100 to push it into the Blues/Purples.
-  if (hue >= 70 && hue <= 170) {
-    hue = (hue + 100) % 360;
-  }
-
-  // 3. Return as a CSS HSL string
-  // 70% saturation and 60% lightness keeps the colors bright and consistent
-  return `hsl(${Math.floor(hue)}, 70%, 60%)`;
-};
-
 export default function CategoryGridItem(data:CategoryItemParams){
+    const Icon = getIcon(data.category.icon);
     return <button
                 type='button'
-                onClick={()=>data.onClick(data.id)}
+                onClick={()=>data.onClick(data.category.id)}
                 className={`w-full ${data.selected && "bg-green-400"} bubble flex flex-col gap-2 cursor-pointer `}
                 >
                 <div className="aspect-square w-full rounded-2xl"
-                style={{ backgroundColor: getRandomNonGreenColor(data.id) }}
-                ></div>
-                <p className="font-semibold text-lg capitalize">{data.name}</p>
+                style={{ backgroundColor: data.category.color }}
+                >
+                    <Icon color="white" className="w-full h-full md:p-7 p-2"/>
+                </div>
+                <p className="font-semibold md:text-lg text-sm capitalize truncate min-w-0">{data.category.name}</p>
             </button>
 }

@@ -28,7 +28,7 @@ class QuizSessionObject extends CachableSession{
 
         if(!$this->has())return null;
 
-        $this->cache = $this->loadFromCache(new GameReponceObject(new CachableArray([],new QuizAttemptResponceObject())));
+        $this->cache = $this->loadFromCache(new GameReponceObject(new CachableArray([],new QuizAttemptResponceObject()),false,-1));
 
         // dd($this->cache);
 

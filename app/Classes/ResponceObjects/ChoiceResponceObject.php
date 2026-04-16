@@ -19,6 +19,10 @@ final class ChoiceResponceObject implements JsonSerializable,Cachable
         return $this->selected;
     }
 
+    public function getId(){
+        return $this->choiceId;
+    }
+
     public function jsonSerialize() : mixed {
         $choice = Choice::find($this->choiceId);
         return [

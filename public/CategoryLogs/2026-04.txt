@@ -1,0 +1,1 @@
+[2026-04-06 20:28:06] The Admin 'admin' with ip (127.0.0.1) change a Category with id 1

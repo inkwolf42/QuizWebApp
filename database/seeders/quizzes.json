@@ -1,0 +1,4346 @@
+[
+  {
+    "category": "Mathematics",
+    "question": "What is the value of π (pi) to two decimal places?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "3.12", "is_correct": false},
+      {"answer": "3.14", "is_correct": true},
+      {"answer": "3.16", "is_correct": false},
+      {"answer": "3.18", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Mathematics",
+    "question": "What is 15% of 200?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "25", "is_correct": false},
+      {"answer": "30", "is_correct": true},
+      {"answer": "35", "is_correct": false},
+      {"answer": "40", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Mathematics",
+    "question": "What is the square root of 144?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "10", "is_correct": false},
+      {"answer": "11", "is_correct": false},
+      {"answer": "12", "is_correct": true},
+      {"answer": "13", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Mathematics",
+    "question": "Which of these are prime numbers?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "15", "is_correct": false},
+      {"answer": "17", "is_correct": true},
+      {"answer": "19", "is_correct": true},
+      {"answer": "21", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Mathematics",
+    "question": "What is the sum of angles in a triangle?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "90 degrees", "is_correct": false},
+      {"answer": "180 degrees", "is_correct": true},
+      {"answer": "270 degrees", "is_correct": false},
+      {"answer": "360 degrees", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Mathematics",
+    "question": "What is 7 × 8?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "54", "is_correct": false},
+      {"answer": "56", "is_correct": true},
+      {"answer": "58", "is_correct": false},
+      {"answer": "60", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Mathematics",
+    "question": "Which operation should be performed first: 5 + 3 × 2?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Addition (5 + 3)", "is_correct": false},
+      {"answer": "Multiplication (3 × 2)", "is_correct": true},
+      {"answer": "Both simultaneously", "is_correct": false},
+      {"answer": "Left to right", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Mathematics",
+    "question": "What is the next number in the sequence: 2, 4, 8, 16, __?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "24", "is_correct": false},
+      {"answer": "28", "is_correct": false},
+      {"answer": "32", "is_correct": true},
+      {"answer": "36", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Mathematics",
+    "question": "What is the area of a rectangle with length 8 and width 5?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "13", "is_correct": false},
+      {"answer": "26", "is_correct": false},
+      {"answer": "40", "is_correct": true},
+      {"answer": "80", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Mathematics",
+    "question": "Which of these are even numbers?",
+    "has_multiple_answers": true,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "12", "is_correct": true},
+      {"answer": "15", "is_correct": false},
+      {"answer": "18", "is_correct": true},
+      {"answer": "23", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Mathematics",
+    "question": "What is the value of x in the equation: 2x + 5 = 15?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "3", "is_correct": false},
+      {"answer": "4", "is_correct": false},
+      {"answer": "5", "is_correct": true},
+      {"answer": "6", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Mathematics",
+    "question": "What is the perimeter of a square with side length 7?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "14", "is_correct": false},
+      {"answer": "21", "is_correct": false},
+      {"answer": "28", "is_correct": true},
+      {"answer": "49", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Mathematics",
+    "question": "What is the least common multiple (LCM) of 4 and 6?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "8", "is_correct": false},
+      {"answer": "10", "is_correct": false},
+      {"answer": "12", "is_correct": true},
+      {"answer": "24", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Mathematics",
+    "question": "What is 2 to the power of 5?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "10", "is_correct": false},
+      {"answer": "16", "is_correct": false},
+      {"answer": "32", "is_correct": true},
+      {"answer": "64", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Mathematics",
+    "question": "Which of these shapes have 4 sides?",
+    "has_multiple_answers": true,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Square", "is_correct": true},
+      {"answer": "Triangle", "is_correct": false},
+      {"answer": "Rectangle", "is_correct": true},
+      {"answer": "Pentagon", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Mathematics",
+    "question": "What is the median of the set: 3, 7, 9, 12, 15?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "7", "is_correct": false},
+      {"answer": "9", "is_correct": true},
+      {"answer": "10", "is_correct": false},
+      {"answer": "12", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Mathematics",
+    "question": "If a circle has a radius of 5, what is its diameter?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "5", "is_correct": false},
+      {"answer": "10", "is_correct": true},
+      {"answer": "15", "is_correct": false},
+      {"answer": "25", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Mathematics",
+    "question": "What is the greatest common divisor (GCD) of 24 and 36?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "4", "is_correct": false},
+      {"answer": "6", "is_correct": false},
+      {"answer": "12", "is_correct": true},
+      {"answer": "18", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Mathematics",
+    "question": "What is the slope of a horizontal line?",
+    "has_multiple_answers": false,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "0", "is_correct": true},
+      {"answer": "1", "is_correct": false},
+      {"answer": "Undefined", "is_correct": false},
+      {"answer": "Infinity", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Mathematics",
+    "question": "Which of these are irrational numbers?",
+    "has_multiple_answers": true,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "√2", "is_correct": true},
+      {"answer": "π", "is_correct": true},
+      {"answer": "0.5", "is_correct": false},
+      {"answer": "1/3", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Mathematics",
+    "question": "What is the derivative of x²?",
+    "has_multiple_answers": false,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "x", "is_correct": false},
+      {"answer": "2x", "is_correct": true},
+      {"answer": "x²", "is_correct": false},
+      {"answer": "2x²", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Mathematics",
+    "question": "In a right triangle, which formula relates the sides?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "a + b = c", "is_correct": false},
+      {"answer": "a² + b² = c²", "is_correct": true},
+      {"answer": "a × b = c", "is_correct": false},
+      {"answer": "a/b = c", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Mathematics",
+    "question": "What is the sum of the first 10 natural numbers?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "45", "is_correct": false},
+      {"answer": "50", "is_correct": false},
+      {"answer": "55", "is_correct": true},
+      {"answer": "60", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Mathematics",
+    "question": "What is the volume of a cube with side length 3?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "9", "is_correct": false},
+      {"answer": "18", "is_correct": false},
+      {"answer": "27", "is_correct": true},
+      {"answer": "36", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Mathematics",
+    "question": "Which number system uses only 0 and 1?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Decimal", "is_correct": false},
+      {"answer": "Binary", "is_correct": true},
+      {"answer": "Hexadecimal", "is_correct": false},
+      {"answer": "Octal", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Literature",
+    "question": "Who wrote 'Romeo and Juliet'?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Charles Dickens", "is_correct": false},
+      {"answer": "William Shakespeare", "is_correct": true},
+      {"answer": "Jane Austen", "is_correct": false},
+      {"answer": "Mark Twain", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Literature",
+    "question": "What is the first book in the Harry Potter series?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Chamber of Secrets", "is_correct": false},
+      {"answer": "Philosopher's Stone", "is_correct": true},
+      {"answer": "Prisoner of Azkaban", "is_correct": false},
+      {"answer": "Goblet of Fire", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Literature",
+    "question": "Who wrote '1984'?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Aldous Huxley", "is_correct": false},
+      {"answer": "George Orwell", "is_correct": true},
+      {"answer": "Ray Bradbury", "is_correct": false},
+      {"answer": "H.G. Wells", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Literature",
+    "question": "Which of these are works by Jane Austen?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Pride and Prejudice", "is_correct": true},
+      {"answer": "Wuthering Heights", "is_correct": false},
+      {"answer": "Emma", "is_correct": true},
+      {"answer": "Jane Eyre", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Literature",
+    "question": "What type of poem has 14 lines?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Haiku", "is_correct": false},
+      {"answer": "Limerick", "is_correct": false},
+      {"answer": "Sonnet", "is_correct": true},
+      {"answer": "Ballad", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Literature",
+    "question": "Who wrote 'To Kill a Mockingbird'?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Harper Lee", "is_correct": true},
+      {"answer": "F. Scott Fitzgerald", "is_correct": false},
+      {"answer": "Ernest Hemingway", "is_correct": false},
+      {"answer": "John Steinbeck", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Literature",
+    "question": "In which city is 'The Great Gatsby' primarily set?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Boston", "is_correct": false},
+      {"answer": "Chicago", "is_correct": false},
+      {"answer": "New York", "is_correct": true},
+      {"answer": "Los Angeles", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Literature",
+    "question": "Who wrote 'The Odyssey'?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Virgil", "is_correct": false},
+      {"answer": "Homer", "is_correct": true},
+      {"answer": "Sophocles", "is_correct": false},
+      {"answer": "Euripides", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Literature",
+    "question": "Which of these are Shakespearean tragedies?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Hamlet", "is_correct": true},
+      {"answer": "A Midsummer Night's Dream", "is_correct": false},
+      {"answer": "Macbeth", "is_correct": true},
+      {"answer": "The Tempest", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Literature",
+    "question": "What is the name of Sherlock Holmes's assistant?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Dr. Jekyll", "is_correct": false},
+      {"answer": "Dr. Watson", "is_correct": true},
+      {"answer": "Dr. Moreau", "is_correct": false},
+      {"answer": "Dr. Frankenstein", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Literature",
+    "question": "Who wrote 'The Catcher in the Rye'?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Jack Kerouac", "is_correct": false},
+      {"answer": "J.D. Salinger", "is_correct": true},
+      {"answer": "Kurt Vonnegut", "is_correct": false},
+      {"answer": "Joseph Heller", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Literature",
+    "question": "What creature is Moby Dick?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Shark", "is_correct": false},
+      {"answer": "Whale", "is_correct": true},
+      {"answer": "Giant Squid", "is_correct": false},
+      {"answer": "Sea Monster", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Literature",
+    "question": "Which author created the character Hercule Poirot?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Arthur Conan Doyle", "is_correct": false},
+      {"answer": "Agatha Christie", "is_correct": true},
+      {"answer": "Dorothy Sayers", "is_correct": false},
+      {"answer": "Raymond Chandler", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Literature",
+    "question": "What is a haiku?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "A 14-line poem", "is_correct": false},
+      {"answer": "A 3-line Japanese poem", "is_correct": true},
+      {"answer": "A rhyming couplet", "is_correct": false},
+      {"answer": "A narrative poem", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Literature",
+    "question": "Who wrote 'Brave New World'?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "George Orwell", "is_correct": false},
+      {"answer": "Aldous Huxley", "is_correct": true},
+      {"answer": "Ray Bradbury", "is_correct": false},
+      {"answer": "Philip K. Dick", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Literature",
+    "question": "Which of these are works by Charles Dickens?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Oliver Twist", "is_correct": true},
+      {"answer": "Les Misérables", "is_correct": false},
+      {"answer": "Great Expectations", "is_correct": true},
+      {"answer": "War and Peace", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Literature",
+    "question": "What literary device compares two things using 'like' or 'as'?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Metaphor", "is_correct": false},
+      {"answer": "Simile", "is_correct": true},
+      {"answer": "Personification", "is_correct": false},
+      {"answer": "Alliteration", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Literature",
+    "question": "Who wrote 'The Lord of the Rings'?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "C.S. Lewis", "is_correct": false},
+      {"answer": "J.R.R. Tolkien", "is_correct": true},
+      {"answer": "George R.R. Martin", "is_correct": false},
+      {"answer": "Terry Pratchett", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Literature",
+    "question": "What is the opening line of 'A Tale of Two Cities'?",
+    "has_multiple_answers": false,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "Call me Ishmael", "is_correct": false},
+      {"answer": "It was the best of times...", "is_correct": true},
+      {"answer": "It is a truth universally...", "is_correct": false},
+      {"answer": "All happy families...", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Literature",
+    "question": "Who wrote 'The Picture of Dorian Gray'?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Oscar Wilde", "is_correct": true},
+      {"answer": "Bram Stoker", "is_correct": false},
+      {"answer": "Robert Louis Stevenson", "is_correct": false},
+      {"answer": "H.G. Wells", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Literature",
+    "question": "What is the term for the main character in a story?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Antagonist", "is_correct": false},
+      {"answer": "Protagonist", "is_correct": true},
+      {"answer": "Narrator", "is_correct": false},
+      {"answer": "Supporting character", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Literature",
+    "question": "Who wrote 'One Hundred Years of Solitude'?",
+    "has_multiple_answers": false,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "Jorge Luis Borges", "is_correct": false},
+      {"answer": "Gabriel García Márquez", "is_correct": true},
+      {"answer": "Pablo Neruda", "is_correct": false},
+      {"answer": "Isabel Allende", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Literature",
+    "question": "Which novel begins with 'Call me Ishmael'?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Treasure Island", "is_correct": false},
+      {"answer": "Moby-Dick", "is_correct": true},
+      {"answer": "Robinson Crusoe", "is_correct": false},
+      {"answer": "The Old Man and the Sea", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Literature",
+    "question": "Who wrote 'The Divine Comedy'?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Petrarch", "is_correct": false},
+      {"answer": "Dante Alighieri", "is_correct": true},
+      {"answer": "Boccaccio", "is_correct": false},
+      {"answer": "Virgil", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Literature",
+    "question": "Which of these are Gothic novels?",
+    "has_multiple_answers": true,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "Frankenstein", "is_correct": true},
+      {"answer": "Dracula", "is_correct": true},
+      {"answer": "The Hobbit", "is_correct": false},
+      {"answer": "Alice in Wonderland", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the chemical symbol for water?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "H2O", "is_correct": true},
+      {"answer": "O2", "is_correct": false},
+      {"answer": "CO2", "is_correct": false},
+      {"answer": "H2", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "How many planets are in our solar system?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "7", "is_correct": false},
+      {"answer": "8", "is_correct": true},
+      {"answer": "9", "is_correct": false},
+      {"answer": "10", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the speed of light in a vacuum?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "300,000 km/s", "is_correct": true},
+      {"answer": "150,000 km/s", "is_correct": false},
+      {"answer": "500,000 km/s", "is_correct": false},
+      {"answer": "1,000,000 km/s", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Which of these are states of matter?",
+    "has_multiple_answers": true,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Solid", "is_correct": true},
+      {"answer": "Liquid", "is_correct": true},
+      {"answer": "Energy", "is_correct": false},
+      {"answer": "Gas", "is_correct": true}
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the atomic number of carbon?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "4", "is_correct": false},
+      {"answer": "6", "is_correct": true},
+      {"answer": "8", "is_correct": false},
+      {"answer": "12", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What gas do plants absorb from the atmosphere?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Oxygen", "is_correct": false},
+      {"answer": "Carbon dioxide", "is_correct": true},
+      {"answer": "Nitrogen", "is_correct": false},
+      {"answer": "Hydrogen", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the boiling point of water at sea level?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "90°C", "is_correct": false},
+      {"answer": "100°C", "is_correct": true},
+      {"answer": "110°C", "is_correct": false},
+      {"answer": "120°C", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Which planet is known as the Red Planet?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Venus", "is_correct": false},
+      {"answer": "Mars", "is_correct": true},
+      {"answer": "Jupiter", "is_correct": false},
+      {"answer": "Saturn", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Which of these are noble gases?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Helium", "is_correct": true},
+      {"answer": "Oxygen", "is_correct": false},
+      {"answer": "Neon", "is_correct": true},
+      {"answer": "Nitrogen", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the center of an atom called?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Electron", "is_correct": false},
+      {"answer": "Nucleus", "is_correct": true},
+      {"answer": "Proton", "is_correct": false},
+      {"answer": "Neutron", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the hardest natural substance on Earth?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Gold", "is_correct": false},
+      {"answer": "Iron", "is_correct": false},
+      {"answer": "Diamond", "is_correct": true},
+      {"answer": "Quartz", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "How many bones are in the adult human body?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "186", "is_correct": false},
+      {"answer": "206", "is_correct": true},
+      {"answer": "226", "is_correct": false},
+      {"answer": "246", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the chemical symbol for gold?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Go", "is_correct": false},
+      {"answer": "Au", "is_correct": true},
+      {"answer": "Ag", "is_correct": false},
+      {"answer": "Gd", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What type of animal is a dolphin?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Fish", "is_correct": false},
+      {"answer": "Mammal", "is_correct": true},
+      {"answer": "Reptile", "is_correct": false},
+      {"answer": "Amphibian", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Which of these are renewable energy sources?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Solar", "is_correct": true},
+      {"answer": "Coal", "is_correct": false},
+      {"answer": "Wind", "is_correct": true},
+      {"answer": "Oil", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the largest organ in the human body?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Heart", "is_correct": false},
+      {"answer": "Brain", "is_correct": false},
+      {"answer": "Skin", "is_correct": true},
+      {"answer": "Liver", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the pH of pure water?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "5", "is_correct": false},
+      {"answer": "7", "is_correct": true},
+      {"answer": "9", "is_correct": false},
+      {"answer": "11", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Which force keeps planets in orbit around the sun?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Magnetism", "is_correct": false},
+      {"answer": "Gravity", "is_correct": true},
+      {"answer": "Friction", "is_correct": false},
+      {"answer": "Inertia", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the freezing point of water in Fahrenheit?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "0°F", "is_correct": false},
+      {"answer": "32°F", "is_correct": true},
+      {"answer": "64°F", "is_correct": false},
+      {"answer": "100°F", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Which of these are greenhouse gases?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Carbon dioxide", "is_correct": true},
+      {"answer": "Oxygen", "is_correct": false},
+      {"answer": "Methane", "is_correct": true},
+      {"answer": "Nitrogen", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the smallest unit of life?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Atom", "is_correct": false},
+      {"answer": "Cell", "is_correct": true},
+      {"answer": "Molecule", "is_correct": false},
+      {"answer": "Tissue", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What particle has a negative charge?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Proton", "is_correct": false},
+      {"answer": "Neutron", "is_correct": false},
+      {"answer": "Electron", "is_correct": true},
+      {"answer": "Photon", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the process by which plants make food?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Respiration", "is_correct": false},
+      {"answer": "Photosynthesis", "is_correct": true},
+      {"answer": "Digestion", "is_correct": false},
+      {"answer": "Fermentation", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "What is the most abundant gas in Earth's atmosphere?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Oxygen", "is_correct": false},
+      {"answer": "Carbon dioxide", "is_correct": false},
+      {"answer": "Nitrogen", "is_correct": true},
+      {"answer": "Hydrogen", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Science",
+    "question": "Which law states that energy cannot be created or destroyed?",
+    "has_multiple_answers": false,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "Newton's First Law", "is_correct": false},
+      {"answer": "Law of Conservation of Energy", "is_correct": true},
+      {"answer": "Law of Gravity", "is_correct": false},
+      {"answer": "Boyle's Law", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Technology",
+    "question": "What does CPU stand for?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Central Processing Unit", "is_correct": true},
+      {"answer": "Computer Personal Unit", "is_correct": false},
+      {"answer": "Central Program Utility", "is_correct": false},
+      {"answer": "Core Processing Unit", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Technology",
+    "question": "What does RAM stand for?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Random Access Memory", "is_correct": true},
+      {"answer": "Read Access Memory", "is_correct": false},
+      {"answer": "Rapid Application Memory", "is_correct": false},
+      {"answer": "Remote Access Module", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Technology",
+    "question": "Which of these are operating systems?",
+    "has_multiple_answers": true,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Windows", "is_correct": true},
+      {"answer": "Chrome", "is_correct": false},
+      {"answer": "Linux", "is_correct": true},
+      {"answer": "Firefox", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Technology",
+    "question": "What does URL stand for?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Universal Resource Locator", "is_correct": false},
+      {"answer": "Uniform Resource Locator", "is_correct": true},
+      {"answer": "United Resource Link", "is_correct": false},
+      {"answer": "Universal Reference Link", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Technology",
+    "question": "What is the binary representation of the decimal number 5?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "100", "is_correct": false},
+      {"answer": "101", "is_correct": true},
+      {"answer": "110", "is_correct": false},
+      {"answer": "111", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Technology",
+    "question": "Who is often credited with inventing the World Wide Web?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Bill Gates", "is_correct": false},
+      {"answer": "Steve Jobs", "is_correct": false},
+      {"answer": "Tim Berners-Lee", "is_correct": true},
+      {"answer": "Mark Zuckerberg", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Technology",
+    "question": "What does HTTPS stand for?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "HyperText Transfer Protocol Secure", "is_correct": true},
+      {"answer": "High Transfer Protocol System", "is_correct": false},
+      {"answer": "HyperText Transmission Security", "is_correct": false},
+      {"answer": "Home Terminal Protocol Secure", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Technology",
+    "question": "Which of these are programming languages?",
+    "has_multiple_answers": true,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Python", "is_correct": true},
+      {"answer": "HTML", "is_correct": false},
+      {"answer": "Java", "is_correct": true},
+      {"answer": "CSS", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Technology",
+    "question": "What is the main function of a router?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Store data", "is_correct": false},
+      {"answer": "Direct network traffic", "is_correct": true},
+      {"answer": "Display images", "is_correct": false},
+      {"answer": "Process calculations", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Technology",
+    "question": "What does USB stand for?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Universal Serial Bus", "is_correct": true},
+      {"answer": "United System Base", "is_correct": false},
+      {"answer": "Universal System Bridge", "is_correct": false},
+      {"answer": "Unified Serial Bridge", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Technology",
+    "question": "What is the purpose of a firewall?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Cool down computers", "is_correct": false},
+      {"answer": "Block unauthorized access", "is_correct": true},
+      {"answer": "Increase internet speed", "is_correct": false},
+      {"answer": "Store passwords", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Technology",
+    "question": "Which company developed the iPhone?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Samsung", "is_correct": false},
+      {"answer": "Apple", "is_correct": true},
+      {"answer": "Google", "is_correct": false},
+      {"answer": "Microsoft", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Technology",
+    "question": "What does AI stand for in technology?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Automated Intelligence", "is_correct": false},
+      {"answer": "Artificial Intelligence", "is_correct": true},
+      {"answer": "Advanced Integration", "is_correct": false},
+      {"answer": "Application Interface", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Technology",
+    "question": "Which of these are cloud storage services?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Dropbox", "is_correct": true},
+      {"answer": "Firefox", "is_correct": false},
+      {"answer": "Google Drive", "is_correct": true},
+      {"answer": "Safari", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Technology",
+    "question": "What is the maximum number of bits in an IPv4 address?",
+    "has_multiple_answers": false,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "16", "is_correct": false},
+      {"answer": "32", "is_correct": true},
+      {"answer": "64", "is_correct": false},
+      {"answer": "128", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Technology",
+    "question": "What is SSD an acronym for?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Solid State Drive", "is_correct": true},
+      {"answer": "Super Speed Disk", "is_correct": false},
+      {"answer": "Secondary Storage Device", "is_correct": false},
+      {"answer": "System Software Drive", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Technology",
+    "question": "Which protocol is used to send email?",
+    "has_multiple_answers": false,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "FTP", "is_correct": false},
+      {"answer": "HTTP", "is_correct": false},
+      {"answer": "SMTP", "is_correct": true},
+      {"answer": "SSH", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Technology",
+    "question": "What does VPN stand for?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Virtual Private Network", "is_correct": true},
+      {"answer": "Verified Personal Network", "is_correct": false},
+      {"answer": "Virtual Public Node", "is_correct": false},
+      {"answer": "Visual Protocol Network", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Technology",
+    "question": "Which of these are web browsers?",
+    "has_multiple_answers": true,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Chrome", "is_correct": true},
+      {"answer": "Windows", "is_correct": false},
+      {"answer": "Firefox", "is_correct": true},
+      {"answer": "Linux", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Technology",
+    "question": "What does GPU stand for?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "General Processing Unit", "is_correct": false},
+      {"answer": "Graphics Processing Unit", "is_correct": true},
+      {"answer": "Global Performance Unit", "is_correct": false},
+      {"answer": "Graphical Program Utility", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Technology",
+    "question": "What is the primary function of DNS?",
+    "has_multiple_answers": false,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "Encrypt data", "is_correct": false},
+      {"answer": "Translate domain names to IP addresses", "is_correct": true},
+      {"answer": "Store web pages", "is_correct": false},
+      {"answer": "Compress files", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Technology",
+    "question": "What year was the first iPhone released?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "2005", "is_correct": false},
+      {"answer": "2007", "is_correct": true},
+      {"answer": "2009", "is_correct": false},
+      {"answer": "2011", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Technology",
+    "question": "Which of these are types of malware?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Virus", "is_correct": true},
+      {"answer": "Cookie", "is_correct": false},
+      {"answer": "Trojan", "is_correct": true},
+      {"answer": "Cache", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Technology",
+    "question": "What does IoT stand for?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Internet of Things", "is_correct": true},
+      {"answer": "Integration of Technology", "is_correct": false},
+      {"answer": "Interface of Terminals", "is_correct": false},
+      {"answer": "Input/Output Technology", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Technology",
+    "question": "What is the base of the hexadecimal number system?",
+    "has_multiple_answers": false,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "2", "is_correct": false},
+      {"answer": "8", "is_correct": false},
+      {"answer": "10", "is_correct": false},
+      {"answer": "16", "is_correct": true}
+    ]
+  },
+  {
+    "category": "Programming",
+    "question": "Which language is primarily used for web page styling?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "JavaScript", "is_correct": false},
+      {"answer": "CSS", "is_correct": true},
+      {"answer": "Python", "is_correct": false},
+      {"answer": "Java", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Programming",
+    "question": "What does HTML stand for?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "HyperText Markup Language", "is_correct": true},
+      {"answer": "High Transfer Markup Language", "is_correct": false},
+      {"answer": "Home Tool Markup Language", "is_correct": false},
+      {"answer": "Hyperlink and Text Markup Language", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Programming",
+    "question": "Which of these are object-oriented programming languages?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Java", "is_correct": true},
+      {"answer": "C", "is_correct": false},
+      {"answer": "Python", "is_correct": true},
+      {"answer": "Assembly", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Programming",
+    "question": "What is a variable in programming?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "A fixed value", "is_correct": false},
+      {"answer": "A storage location for data", "is_correct": true},
+      {"answer": "A type of loop", "is_correct": false},
+      {"answer": "A function call", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Programming",
+    "question": "What does API stand for?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Application Programming Interface", "is_correct": true},
+      {"answer": "Advanced Program Integration", "is_correct": false},
+      {"answer": "Automated Processing Interface", "is_correct": false},
+      {"answer": "Application Process Indicator", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Programming",
+    "question": "What is the output of: print(3 + 2 * 2) in most languages?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "10", "is_correct": false},
+      {"answer": "7", "is_correct": true},
+      {"answer": "8", "is_correct": false},
+      {"answer": "12", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Programming",
+    "question": "Which symbol is commonly used for comments in Python?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "//", "is_correct": false},
+      {"answer": "#", "is_correct": true},
+      {"answer": "/*", "is_correct": false},
+      {"answer": "<!--", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Programming",
+    "question": "What is a loop in programming?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "A repeated execution of code", "is_correct": true},
+      {"answer": "A type of variable", "is_correct": false},
+      {"answer": "A data structure", "is_correct": false},
+      {"answer": "An error message", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Programming",
+    "question": "Which of these are data structures?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Array", "is_correct": true},
+      {"answer": "Loop", "is_correct": false},
+      {"answer": "Stack", "is_correct": true},
+      {"answer": "Function", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Programming",
+    "question": "What does SQL stand for?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Structured Query Language", "is_correct": true},
+      {"answer": "Simple Question Language", "is_correct": false},
+      {"answer": "Standard Query Logic", "is_correct": false},
+      {"answer": "System Quality Language", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Programming",
+    "question": "What is the purpose of a function?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Store data permanently", "is_correct": false},
+      {"answer": "Reusable block of code", "is_correct": true},
+      {"answer": "Define variables", "is_correct": false},
+      {"answer": "Create loops", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Programming",
+    "question": "What is JSON used for?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Data interchange format", "is_correct": true},
+      {"answer": "Image processing", "is_correct": false},
+      {"answer": "Video encoding", "is_correct": false},
+      {"answer": "Sound synthesis", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Programming",
+    "question": "Which of these are version control systems?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Git", "is_correct": true},
+      {"answer": "Docker", "is_correct": false},
+      {"answer": "SVN", "is_correct": true},
+      {"answer": "Maven", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Programming",
+    "question": "What does IDE stand for?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Integrated Development Environment", "is_correct": true},
+      {"answer": "Interactive Design Editor", "is_correct": false},
+      {"answer": "Internal Data Engine", "is_correct": false},
+      {"answer": "International Development Engine", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Programming",
+    "question": "What is recursion in programming?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "A loop that never ends", "is_correct": false},
+      {"answer": "A function calling itself", "is_correct": true},
+      {"answer": "A type of variable", "is_correct": false},
+      {"answer": "An error handling method", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Programming",
+    "question": "Which of these are compiled languages?",
+    "has_multiple_answers": true,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "C++", "is_correct": true},
+      {"answer": "Python", "is_correct": false},
+      {"answer": "Java", "is_correct": true},
+      {"answer": "JavaScript", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Programming",
+    "question": "What is the purpose of a constructor in OOP?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Delete objects", "is_correct": false},
+      {"answer": "Initialize objects", "is_correct": true},
+      {"answer": "Compare objects", "is_correct": false},
+      {"answer": "Destroy variables", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Programming",
+    "question": "What does DRY principle stand for?",
+    "has_multiple_answers": false,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "Don't Repeat Yourself", "is_correct": true},
+      {"answer": "Do Repeat Yourself", "is_correct": false},
+      {"answer": "Define Reusable Yield", "is_correct": false},
+      {"answer": "Data Repetition Yield", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Programming",
+    "question": "What is the index of the first element in most programming arrays?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "1", "is_correct": false},
+      {"answer": "0", "is_correct": true},
+      {"answer": "-1", "is_correct": false},
+      {"answer": "2", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Programming",
+    "question": "Which of these are JavaScript frameworks?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "React", "is_correct": true},
+      {"answer": "Django", "is_correct": false},
+      {"answer": "Vue", "is_correct": true},
+      {"answer": "Flask", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Programming",
+    "question": "What is null in programming?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Zero", "is_correct": false},
+      {"answer": "Absence of value", "is_correct": true},
+      {"answer": "Empty string", "is_correct": false},
+      {"answer": "False value", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Programming",
+    "question": "What is Big O notation used for?",
+    "has_multiple_answers": false,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "Measuring memory usage", "is_correct": false},
+      {"answer": "Analyzing algorithm complexity", "is_correct": true},
+      {"answer": "Debugging code", "is_correct": false},
+      {"answer": "Version control", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Programming",
+    "question": "What does CSS stand for?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Computer Style Sheets", "is_correct": false},
+      {"answer": "Cascading Style Sheets", "is_correct": true},
+      {"answer": "Creative Style System", "is_correct": false},
+      {"answer": "Colorful Style Sheets", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Programming",
+    "question": "Which of these are paradigms of programming?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Object-Oriented", "is_correct": true},
+      {"answer": "Binary", "is_correct": false},
+      {"answer": "Functional", "is_correct": true},
+      {"answer": "Digital", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Programming",
+    "question": "What is the purpose of HTTPS over HTTP?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Faster loading", "is_correct": false},
+      {"answer": "Secure communication", "is_correct": true},
+      {"answer": "Better graphics", "is_correct": false},
+      {"answer": "More storage", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Music",
+    "question": "How many strings does a standard guitar have?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "4", "is_correct": false},
+      {"answer": "6", "is_correct": true},
+      {"answer": "8", "is_correct": false},
+      {"answer": "12", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Music",
+    "question": "What is the highest female singing voice?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Alto", "is_correct": false},
+      {"answer": "Soprano", "is_correct": true},
+      {"answer": "Mezzo-soprano", "is_correct": false},
+      {"answer": "Contralto", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Music",
+    "question": "Which of these are brass instruments?",
+    "has_multiple_answers": true,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Trumpet", "is_correct": true},
+      {"answer": "Clarinet", "is_correct": false},
+      {"answer": "Trombone", "is_correct": true},
+      {"answer": "Flute", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Music",
+    "question": "Who composed the 'Four Seasons'?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Mozart", "is_correct": false},
+      {"answer": "Vivaldi", "is_correct": true},
+      {"answer": "Bach", "is_correct": false},
+      {"answer": "Beethoven", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Music",
+    "question": "How many keys are on a standard piano?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "76", "is_correct": false},
+      {"answer": "88", "is_correct": true},
+      {"answer": "92", "is_correct": false},
+      {"answer": "100", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Music",
+    "question": "What does 'allegro' mean in music?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Slow", "is_correct": false},
+      {"answer": "Fast", "is_correct": true},
+      {"answer": "Loud", "is_correct": false},
+      {"answer": "Soft", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Music",
+    "question": "Which of these are percussion instruments?",
+    "has_multiple_answers": true,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Drums", "is_correct": true},
+      {"answer": "Violin", "is_correct": false},
+      {"answer": "Cymbals", "is_correct": true},
+      {"answer": "Saxophone", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Music",
+    "question": "Who is known as the 'King of Pop'?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Elvis Presley", "is_correct": false},
+      {"answer": "Michael Jackson", "is_correct": true},
+      {"answer": "Prince", "is_correct": false},
+      {"answer": "Freddie Mercury", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Music",
+    "question": "How many lines are in a musical staff?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "4", "is_correct": false},
+      {"answer": "5", "is_correct": true},
+      {"answer": "6", "is_correct": false},
+      {"answer": "7", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Music",
+    "question": "What is a measure in music also called?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Note", "is_correct": false},
+      {"answer": "Bar", "is_correct": true},
+      {"answer": "Staff", "is_correct": false},
+      {"answer": "Clef", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Music",
+    "question": "Which of these are genres of music?",
+    "has_multiple_answers": true,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Jazz", "is_correct": true},
+      {"answer": "Painting", "is_correct": false},
+      {"answer": "Rock", "is_correct": true},
+      {"answer": "Sculpture", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Music",
+    "question": "Who wrote the opera 'The Magic Flute'?",
+    "has_multiple_answers": false,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "Verdi", "is_correct": false},
+      {"answer": "Mozart", "is_correct": true},
+      {"answer": "Wagner", "is_correct": false},
+      {"answer": "Puccini", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Music",
+    "question": "What is the term for a group of three notes played together?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Duo", "is_correct": false},
+      {"answer": "Chord", "is_correct": false},
+      {"answer": "Triad", "is_correct": true},
+      {"answer": "Quartet", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Music",
+    "question": "Which band released the album 'Abbey Road'?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "The Rolling Stones", "is_correct": false},
+      {"answer": "The Beatles", "is_correct": true},
+      {"answer": "Led Zeppelin", "is_correct": false},
+      {"answer": "Pink Floyd", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Music",
+    "question": "What does 'forte' mean in music notation?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Soft", "is_correct": false},
+      {"answer": "Loud", "is_correct": true},
+      {"answer": "Fast", "is_correct": false},
+      {"answer": "Slow", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Music",
+    "question": "Which of these are string instruments?",
+    "has_multiple_answers": true,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Violin", "is_correct": true},
+      {"answer": "Trumpet", "is_correct": false},
+      {"answer": "Cello", "is_correct": true},
+      {"answer": "Oboe", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Music",
+    "question": "What is the lowest male singing voice?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Tenor", "is_correct": false},
+      {"answer": "Baritone", "is_correct": false},
+      {"answer": "Bass", "is_correct": true},
+      {"answer": "Alto", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Music",
+    "question": "How many beats does a whole note get in 4/4 time?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "2", "is_correct": false},
+      {"answer": "3", "is_correct": false},
+      {"answer": "4", "is_correct": true},
+      {"answer": "8", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Music",
+    "question": "Which composer became deaf later in life?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Mozart", "is_correct": false},
+      {"answer": "Beethoven", "is_correct": true},
+      {"answer": "Bach", "is_correct": false},
+      {"answer": "Chopin", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Music",
+    "question": "What is the term for gradually getting louder?",
+    "has_multiple_answers": false,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "Decrescendo", "is_correct": false},
+      {"answer": "Crescendo", "is_correct": true},
+      {"answer": "Staccato", "is_correct": false},
+      {"answer": "Legato", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Music",
+    "question": "Which of these are woodwind instruments?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Flute", "is_correct": true},
+      {"answer": "Trumpet", "is_correct": false},
+      {"answer": "Clarinet", "is_correct": true},
+      {"answer": "Tuba", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Music",
+    "question": "What is a sharp symbol in music?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "#", "is_correct": true},
+      {"answer": "b", "is_correct": false},
+      {"answer": "♮", "is_correct": false},
+      {"answer": "𝄞", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Music",
+    "question": "Which instrument is Yo-Yo Ma famous for playing?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Violin", "is_correct": false},
+      {"answer": "Cello", "is_correct": true},
+      {"answer": "Piano", "is_correct": false},
+      {"answer": "Viola", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Music",
+    "question": "What is the term for music without instrumental accompaniment?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Solo", "is_correct": false},
+      {"answer": "A cappella", "is_correct": true},
+      {"answer": "Ensemble", "is_correct": false},
+      {"answer": "Orchestra", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Music",
+    "question": "Which of these artists are known for classical music?",
+    "has_multiple_answers": true,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Mozart", "is_correct": true},
+      {"answer": "Elvis", "is_correct": false},
+      {"answer": "Bach", "is_correct": true},
+      {"answer": "Beatles", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Gaming",
+    "question": "Which company created the PlayStation?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Nintendo", "is_correct": false},
+      {"answer": "Sony", "is_correct": true},
+      {"answer": "Microsoft", "is_correct": false},
+      {"answer": "Sega", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Gaming",
+    "question": "What is the main character's name in the Legend of Zelda series?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Zelda", "is_correct": false},
+      {"answer": "Link", "is_correct": true},
+      {"answer": "Mario", "is_correct": false},
+      {"answer": "Ganon", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Gaming",
+    "question": "Which of these are Nintendo franchises?",
+    "has_multiple_answers": true,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Mario", "is_correct": true},
+      {"answer": "Halo", "is_correct": false},
+      {"answer": "Pokemon", "is_correct": true},
+      {"answer": "Call of Duty", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Gaming",
+    "question": "What year was the original Tetris released?",
+    "has_multiple_answers": false,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "1982", "is_correct": false},
+      {"answer": "1984", "is_correct": true},
+      {"answer": "1986", "is_correct": false},
+      {"answer": "1988", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Gaming",
+    "question": "In chess, which piece can only move diagonally?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Rook", "is_correct": false},
+      {"answer": "Bishop", "is_correct": true},
+      {"answer": "Knight", "is_correct": false},
+      {"answer": "Queen", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Gaming",
+    "question": "What is the maximum score in a single game of bowling?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "200", "is_correct": false},
+      {"answer": "250", "is_correct": false},
+      {"answer": "300", "is_correct": true},
+      {"answer": "350", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Gaming",
+    "question": "Which of these are types of video game genres?",
+    "has_multiple_answers": true,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "RPG", "is_correct": true},
+      {"answer": "PDF", "is_correct": false},
+      {"answer": "FPS", "is_correct": true},
+      {"answer": "GPS", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Gaming",
+    "question": "What color is the ghost Blinky in Pac-Man?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Pink", "is_correct": false},
+      {"answer": "Red", "is_correct": true},
+      {"answer": "Blue", "is_correct": false},
+      {"answer": "Orange", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Gaming",
+    "question": "In Minecraft, what material do you need to make a pickaxe?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Only wood", "is_correct": false},
+      {"answer": "Wood and stone or metal", "is_correct": true},
+      {"answer": "Only stone", "is_correct": false},
+      {"answer": "Only diamond", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Gaming",
+    "question": "What is the name of the protagonist in the Halo series?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Commander Shepard", "is_correct": false},
+      {"answer": "Master Chief", "is_correct": true},
+      {"answer": "Captain Price", "is_correct": false},
+      {"answer": "Solid Snake", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Gaming",
+    "question": "Which of these are card games?",
+    "has_multiple_answers": true,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Poker", "is_correct": true},
+      {"answer": "Chess", "is_correct": false},
+      {"answer": "Bridge", "is_correct": true},
+      {"answer": "Checkers", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Gaming",
+    "question": "How many players are on a soccer team on the field?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "9", "is_correct": false},
+      {"answer": "10", "is_correct": false},
+      {"answer": "11", "is_correct": true},
+      {"answer": "12", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Gaming",
+    "question": "What gaming console did Sega release in 1988?",
+    "has_multiple_answers": false,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "Sega Saturn", "is_correct": false},
+      {"answer": "Sega Genesis", "is_correct": true},
+      {"answer": "Dreamcast", "is_correct": false},
+      {"answer": "Game Gear", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Gaming",
+    "question": "In Monopoly, how much money does each player start with?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "$1000", "is_correct": false},
+      {"answer": "$1500", "is_correct": true},
+      {"answer": "$2000", "is_correct": false},
+      {"answer": "$2500", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Gaming",
+    "question": "Which of these are esports games?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "League of Legends", "is_correct": true},
+      {"answer": "Solitaire", "is_correct": false},
+      {"answer": "Counter-Strike", "is_correct": true},
+      {"answer": "Minesweeper", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Gaming",
+    "question": "What is Mario's profession?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Doctor", "is_correct": false},
+      {"answer": "Plumber", "is_correct": true},
+      {"answer": "Chef", "is_correct": false},
+      {"answer": "Firefighter", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Gaming",
+    "question": "In what year was the first Xbox released?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "1999", "is_correct": false},
+      {"answer": "2001", "is_correct": true},
+      {"answer": "2003", "is_correct": false},
+      {"answer": "2005", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Gaming",
+    "question": "What is the goal in the game of Go?",
+    "has_multiple_answers": false,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "Capture the king", "is_correct": false},
+      {"answer": "Control territory", "is_correct": true},
+      {"answer": "Get three in a row", "is_correct": false},
+      {"answer": "Reach the other side", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Gaming",
+    "question": "Which of these are Mario's enemies?",
+    "has_multiple_answers": true,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Goomba", "is_correct": true},
+      {"answer": "Pikachu", "is_correct": false},
+      {"answer": "Koopa Troopa", "is_correct": true},
+      {"answer": "Sonic", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Gaming",
+    "question": "What is the currency called in Fortnite?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Coins", "is_correct": false},
+      {"answer": "V-Bucks", "is_correct": true},
+      {"answer": "Credits", "is_correct": false},
+      {"answer": "Gems", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Gaming",
+    "question": "How many pieces does each player start with in chess?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "12", "is_correct": false},
+      {"answer": "14", "is_correct": false},
+      {"answer": "16", "is_correct": true},
+      {"answer": "18", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Gaming",
+    "question": "What type of game is World of Warcraft?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "FPS", "is_correct": false},
+      {"answer": "MMORPG", "is_correct": true},
+      {"answer": "Racing", "is_correct": false},
+      {"answer": "Puzzle", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Gaming",
+    "question": "Which of these are portable gaming consoles?",
+    "has_multiple_answers": true,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Game Boy", "is_correct": true},
+      {"answer": "PlayStation 5", "is_correct": false},
+      {"answer": "Nintendo Switch", "is_correct": true},
+      {"answer": "Xbox Series X", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Gaming",
+    "question": "What is the maximum level in the original Pac-Man?",
+    "has_multiple_answers": false,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "99", "is_correct": false},
+      {"answer": "200", "is_correct": false},
+      {"answer": "256", "is_correct": true},
+      {"answer": "Infinite", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Gaming",
+    "question": "In what game would you find the character GLaDOS?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Half-Life", "is_correct": false},
+      {"answer": "Portal", "is_correct": true},
+      {"answer": "Bioshock", "is_correct": false},
+      {"answer": "Fallout", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Physics",
+    "question": "What is the formula for calculating force?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "F = m × a", "is_correct": true},
+      {"answer": "F = m ÷ a", "is_correct": false},
+      {"answer": "F = m + a", "is_correct": false},
+      {"answer": "F = m - a", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Physics",
+    "question": "What is the speed of sound in air at room temperature?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "243 m/s", "is_correct": false},
+      {"answer": "343 m/s", "is_correct": true},
+      {"answer": "443 m/s", "is_correct": false},
+      {"answer": "543 m/s", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Physics",
+    "question": "Which of these are fundamental forces in nature?",
+    "has_multiple_answers": true,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "Gravity", "is_correct": true},
+      {"answer": "Friction", "is_correct": false},
+      {"answer": "Electromagnetic", "is_correct": true},
+      {"answer": "Centrifugal", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Physics",
+    "question": "What is the unit of electrical resistance?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Volt", "is_correct": false},
+      {"answer": "Ampere", "is_correct": false},
+      {"answer": "Ohm", "is_correct": true},
+      {"answer": "Watt", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Physics",
+    "question": "What does E represent in Einstein's equation E=mc²?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Electricity", "is_correct": false},
+      {"answer": "Energy", "is_correct": true},
+      {"answer": "Electron", "is_correct": false},
+      {"answer": "Element", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Physics",
+    "question": "What is the acceleration due to gravity on Earth?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "8.8 m/s²", "is_correct": false},
+      {"answer": "9.8 m/s²", "is_correct": true},
+      {"answer": "10.8 m/s²", "is_correct": false},
+      {"answer": "11.8 m/s²", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Physics",
+    "question": "Which of these are types of energy?",
+    "has_multiple_answers": true,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Kinetic", "is_correct": true},
+      {"answer": "Static", "is_correct": false},
+      {"answer": "Potential", "is_correct": true},
+      {"answer": "Virtual", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Physics",
+    "question": "What is the SI unit of power?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Joule", "is_correct": false},
+      {"answer": "Watt", "is_correct": true},
+      {"answer": "Newton", "is_correct": false},
+      {"answer": "Pascal", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Physics",
+    "question": "What is the first law of thermodynamics about?",
+    "has_multiple_answers": false,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "Heat transfer", "is_correct": false},
+      {"answer": "Conservation of energy", "is_correct": true},
+      {"answer": "Entropy", "is_correct": false},
+      {"answer": "Absolute zero", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Physics",
+    "question": "What type of wave is sound?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Electromagnetic", "is_correct": false},
+      {"answer": "Mechanical", "is_correct": true},
+      {"answer": "Transverse", "is_correct": false},
+      {"answer": "Light", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Physics",
+    "question": "Which of these are Newton's laws of motion?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Law of inertia", "is_correct": true},
+      {"answer": "Law of reflection", "is_correct": false},
+      {"answer": "F = ma", "is_correct": true},
+      {"answer": "Law of conservation", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Physics",
+    "question": "What is absolute zero in Celsius?",
+    "has_multiple_answers": false,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "-173.15°C", "is_correct": false},
+      {"answer": "-273.15°C", "is_correct": true},
+      {"answer": "-373.15°C", "is_correct": false},
+      {"answer": "-473.15°C", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Physics",
+    "question": "What is the unit of frequency?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Watt", "is_correct": false},
+      {"answer": "Hertz", "is_correct": true},
+      {"answer": "Joule", "is_correct": false},
+      {"answer": "Newton", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Physics",
+    "question": "What is the speed of light in a vacuum?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "300,000 km/s", "is_correct": true},
+      {"answer": "150,000 km/s", "is_correct": false},
+      {"answer": "500,000 km/s", "is_correct": false},
+      {"answer": "1,000,000 km/s", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Physics",
+    "question": "Which of these are properties of waves?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Wavelength", "is_correct": true},
+      {"answer": "Mass", "is_correct": false},
+      {"answer": "Frequency", "is_correct": true},
+      {"answer": "Density", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Physics",
+    "question": "What is Ohm's Law?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "V = I × R", "is_correct": true},
+      {"answer": "F = m × a", "is_correct": false},
+      {"answer": "E = mc²", "is_correct": false},
+      {"answer": "P = V × I", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Physics",
+    "question": "What particle carries electricity?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Proton", "is_correct": false},
+      {"answer": "Neutron", "is_correct": false},
+      {"answer": "Electron", "is_correct": true},
+      {"answer": "Photon", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Physics",
+    "question": "Which of these are types of electromagnetic radiation?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "X-rays", "is_correct": true},
+      {"answer": "Sound waves", "is_correct": false},
+      {"answer": "Visible light", "is_correct": true},
+      {"answer": "Water waves", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Physics",
+    "question": "What is the principle behind a lever?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Conservation of energy", "is_correct": false},
+      {"answer": "Mechanical advantage", "is_correct": true},
+      {"answer": "Buoyancy", "is_correct": false},
+      {"answer": "Inertia", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Physics",
+    "question": "What is the unit of electric charge?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Volt", "is_correct": false},
+      {"answer": "Ampere", "is_correct": false},
+      {"answer": "Coulomb", "is_correct": true},
+      {"answer": "Ohm", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Physics",
+    "question": "Which of these describe motion?",
+    "has_multiple_answers": true,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Velocity", "is_correct": true},
+      {"answer": "Temperature", "is_correct": false},
+      {"answer": "Acceleration", "is_correct": true},
+      {"answer": "Pressure", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Physics",
+    "question": "What causes refraction of light?",
+    "has_multiple_answers": false,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "Change in medium", "is_correct": true},
+      {"answer": "Change in color", "is_correct": false},
+      {"answer": "Change in brightness", "is_correct": false},
+      {"answer": "Change in direction", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Physics",
+    "question": "What is the work-energy theorem?",
+    "has_multiple_answers": false,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "Work equals change in kinetic energy", "is_correct": true},
+      {"answer": "Energy is always conserved", "is_correct": false},
+      {"answer": "Work equals force times distance", "is_correct": false},
+      {"answer": "Energy cannot be created", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Physics",
+    "question": "What is the relationship between wavelength and frequency?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Directly proportional", "is_correct": false},
+      {"answer": "Inversely proportional", "is_correct": true},
+      {"answer": "No relationship", "is_correct": false},
+      {"answer": "Exponential", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Physics",
+    "question": "Which of these are scalar quantities?",
+    "has_multiple_answers": true,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "Speed", "is_correct": true},
+      {"answer": "Velocity", "is_correct": false},
+      {"answer": "Temperature", "is_correct": true},
+      {"answer": "Force", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Computer Science",
+    "question": "What does RAM stand for?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Random Access Memory", "is_correct": true},
+      {"answer": "Read Access Memory", "is_correct": false},
+      {"answer": "Rapid Application Memory", "is_correct": false},
+      {"answer": "Remote Access Module", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Computer Science",
+    "question": "What is the time complexity of binary search?",
+    "has_multiple_answers": false,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "O(n)", "is_correct": false},
+      {"answer": "O(log n)", "is_correct": true},
+      {"answer": "O(n²)", "is_correct": false},
+      {"answer": "O(1)", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Computer Science",
+    "question": "Which of these are data structures?",
+    "has_multiple_answers": true,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Array", "is_correct": true},
+      {"answer": "Algorithm", "is_correct": false},
+      {"answer": "Queue", "is_correct": true},
+      {"answer": "Compiler", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Computer Science",
+    "question": "What is a boolean variable?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "A number variable", "is_correct": false},
+      {"answer": "A true/false variable", "is_correct": true},
+      {"answer": "A string variable", "is_correct": false},
+      {"answer": "An array variable", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Computer Science",
+    "question": "What does FIFO stand for?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "First In First Out", "is_correct": true},
+      {"answer": "Fast In Fast Out", "is_correct": false},
+      {"answer": "Final In First Out", "is_correct": false},
+      {"answer": "First Index For Output", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Computer Science",
+    "question": "Which sorting algorithm has the best average-case time complexity?",
+    "has_multiple_answers": false,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "Bubble Sort", "is_correct": false},
+      {"answer": "Quick Sort", "is_correct": true},
+      {"answer": "Selection Sort", "is_correct": false},
+      {"answer": "Insertion Sort", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Computer Science",
+    "question": "Which of these are programming paradigms?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Object-Oriented", "is_correct": true},
+      {"answer": "Sequential", "is_correct": false},
+      {"answer": "Functional", "is_correct": true},
+      {"answer": "Compiled", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Computer Science",
+    "question": "What is a stack?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "FIFO data structure", "is_correct": false},
+      {"answer": "LIFO data structure", "is_correct": true},
+      {"answer": "Random access structure", "is_correct": false},
+      {"answer": "Tree structure", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Computer Science",
+    "question": "What does SQL stand for?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Structured Query Language", "is_correct": true},
+      {"answer": "Simple Question Language", "is_correct": false},
+      {"answer": "System Query Logic", "is_correct": false},
+      {"answer": "Sequential Query Language", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Computer Science",
+    "question": "Which of these are types of computer memory?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "RAM", "is_correct": true},
+      {"answer": "CPU", "is_correct": false},
+      {"answer": "ROM", "is_correct": true},
+      {"answer": "GPU", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Computer Science",
+    "question": "What is the purpose of an operating system?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Manage hardware/software resources", "is_correct": true},
+      {"answer": "Browse the internet", "is_correct": false},
+      {"answer": "Create documents", "is_correct": false},
+      {"answer": "Play games", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Computer Science",
+    "question": "What is Big O notation used for?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Measuring code readability", "is_correct": false},
+      {"answer": "Analyzing algorithm efficiency", "is_correct": true},
+      {"answer": "Debugging code", "is_correct": false},
+      {"answer": "Version control", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Computer Science",
+    "question": "Which of these are relational database management systems?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "MySQL", "is_correct": true},
+      {"answer": "MongoDB", "is_correct": false},
+      {"answer": "PostgreSQL", "is_correct": true},
+      {"answer": "Redis", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Computer Science",
+    "question": "What is a binary tree?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "A tree with two roots", "is_correct": false},
+      {"answer": "A tree where each node has at most 2 children", "is_correct": true},
+      {"answer": "A tree with binary values", "is_correct": false},
+      {"answer": "A tree with exactly 2 levels", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Computer Science",
+    "question": "What does HTTP stand for?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "HyperText Transfer Protocol", "is_correct": true},
+      {"answer": "High Transfer Text Protocol", "is_correct": false},
+      {"answer": "HyperText Transmission Process", "is_correct": false},
+      {"answer": "Home Terminal Transfer Protocol", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Computer Science",
+    "question": "Which of these are characteristics of object-oriented programming?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Encapsulation", "is_correct": true},
+      {"answer": "Compilation", "is_correct": false},
+      {"answer": "Inheritance", "is_correct": true},
+      {"answer": "Translation", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Computer Science",
+    "question": "What is the main purpose of a compiler?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Execute code", "is_correct": false},
+      {"answer": "Translate code to machine language", "is_correct": true},
+      {"answer": "Debug code", "is_correct": false},
+      {"answer": "Store code", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Computer Science",
+    "question": "What is recursion?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "A loop structure", "is_correct": false},
+      {"answer": "A function calling itself", "is_correct": true},
+      {"answer": "A data structure", "is_correct": false},
+      {"answer": "An error type", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Computer Science",
+    "question": "Which of these are networking protocols?",
+    "has_multiple_answers": true,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "TCP/IP", "is_correct": true},
+      {"answer": "HTML", "is_correct": false},
+      {"answer": "FTP", "is_correct": true},
+      {"answer": "CSS", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Computer Science",
+    "question": "What is cache memory?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Permanent storage", "is_correct": false},
+      {"answer": "Fast temporary storage", "is_correct": true},
+      {"answer": "Cloud storage", "is_correct": false},
+      {"answer": "External storage", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Computer Science",
+    "question": "What does API stand for?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Application Programming Interface", "is_correct": true},
+      {"answer": "Advanced Program Integration", "is_correct": false},
+      {"answer": "Automated Processing Interface", "is_correct": false},
+      {"answer": "Applied Programming Interface", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Computer Science",
+    "question": "Which of these are types of databases?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Relational", "is_correct": true},
+      {"answer": "Sequential", "is_correct": false},
+      {"answer": "NoSQL", "is_correct": true},
+      {"answer": "Compiled", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Computer Science",
+    "question": "What is the primary function of a router?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Store data", "is_correct": false},
+      {"answer": "Route network traffic", "is_correct": true},
+      {"answer": "Process calculations", "is_correct": false},
+      {"answer": "Display graphics", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Computer Science",
+    "question": "What is a hash table?",
+    "has_multiple_answers": false,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "A sorting algorithm", "is_correct": false},
+      {"answer": "A key-value data structure", "is_correct": true},
+      {"answer": "A type of tree", "is_correct": false},
+      {"answer": "A compression method", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Computer Science",
+    "question": "Which of these are computer architecture components?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "CPU", "is_correct": true},
+      {"answer": "Python", "is_correct": false},
+      {"answer": "ALU", "is_correct": true},
+      {"answer": "HTML", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Art & Design",
+    "question": "What are the primary colors?",
+    "has_multiple_answers": true,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Red", "is_correct": true},
+      {"answer": "Green", "is_correct": false},
+      {"answer": "Blue", "is_correct": true},
+      {"answer": "Yellow", "is_correct": true}
+    ]
+  },
+  {
+    "category": "Art & Design",
+    "question": "Who painted the Mona Lisa?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Michelangelo", "is_correct": false},
+      {"answer": "Leonardo da Vinci", "is_correct": true},
+      {"answer": "Raphael", "is_correct": false},
+      {"answer": "Donatello", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Art & Design",
+    "question": "What does RGB stand for in color theory?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Red Green Blue", "is_correct": true},
+      {"answer": "Really Good Brightness", "is_correct": false},
+      {"answer": "Red Gray Black", "is_correct": false},
+      {"answer": "Refined Graphic Base", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Art & Design",
+    "question": "Which of these are design principles?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Balance", "is_correct": true},
+      {"answer": "Calculation", "is_correct": false},
+      {"answer": "Contrast", "is_correct": true},
+      {"answer": "Compilation", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Art & Design",
+    "question": "What art movement was Pablo Picasso associated with?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Impressionism", "is_correct": false},
+      {"answer": "Cubism", "is_correct": true},
+      {"answer": "Surrealism", "is_correct": false},
+      {"answer": "Expressionism", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Art & Design",
+    "question": "What is the Golden Ratio approximately equal to?",
+    "has_multiple_answers": false,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "1.414", "is_correct": false},
+      {"answer": "1.618", "is_correct": true},
+      {"answer": "2.718", "is_correct": false},
+      {"answer": "3.142", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Art & Design",
+    "question": "Which of these are types of perspective in art?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "One-point", "is_correct": true},
+      {"answer": "Circular", "is_correct": false},
+      {"answer": "Two-point", "is_correct": true},
+      {"answer": "Square", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Art & Design",
+    "question": "What does CMYK stand for in printing?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Cyan Magenta Yellow Black", "is_correct": true},
+      {"answer": "Color Mix Yellow Key", "is_correct": false},
+      {"answer": "Creative Media Yellow Kit", "is_correct": false},
+      {"answer": "Computer Mix Year Key", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Art & Design",
+    "question": "Who painted 'The Starry Night'?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Claude Monet", "is_correct": false},
+      {"answer": "Vincent van Gogh", "is_correct": true},
+      {"answer": "Paul Cézanne", "is_correct": false},
+      {"answer": "Edgar Degas", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Art & Design",
+    "question": "What is typography?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "The study of types", "is_correct": false},
+      {"answer": "The art of arranging text", "is_correct": true},
+      {"answer": "A printing machine", "is_correct": false},
+      {"answer": "Digital photography", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Art & Design",
+    "question": "Which of these are warm colors?",
+    "has_multiple_answers": true,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Red", "is_correct": true},
+      {"answer": "Blue", "is_correct": false},
+      {"answer": "Orange", "is_correct": true},
+      {"answer": "Green", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Art & Design",
+    "question": "What is negative space in design?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Black areas", "is_correct": false},
+      {"answer": "Empty areas around objects", "is_correct": true},
+      {"answer": "Dark colors", "is_correct": false},
+      {"answer": "Shadows", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Art & Design",
+    "question": "Who sculpted the statue of David?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Leonardo da Vinci", "is_correct": false},
+      {"answer": "Michelangelo", "is_correct": true},
+      {"answer": "Donatello", "is_correct": false},
+      {"answer": "Bernini", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Art & Design",
+    "question": "Which of these are elements of design?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Line", "is_correct": true},
+      {"answer": "Algorithm", "is_correct": false},
+      {"answer": "Color", "is_correct": true},
+      {"answer": "Function", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Art & Design",
+    "question": "What is a serif in typography?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "A font style", "is_correct": false},
+      {"answer": "A decorative stroke on letters", "is_correct": true},
+      {"answer": "Letter spacing", "is_correct": false},
+      {"answer": "Font size", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Art & Design",
+    "question": "What art movement focused on dreams and the unconscious?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Cubism", "is_correct": false},
+      {"answer": "Surrealism", "is_correct": true},
+      {"answer": "Impressionism", "is_correct": false},
+      {"answer": "Realism", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Art & Design",
+    "question": "Which of these are types of illustration?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Vector", "is_correct": true},
+      {"answer": "Binary", "is_correct": false},
+      {"answer": "Raster", "is_correct": true},
+      {"answer": "Digital", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Art & Design",
+    "question": "What is the complementary color of blue?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Red", "is_correct": false},
+      {"answer": "Green", "is_correct": false},
+      {"answer": "Orange", "is_correct": true},
+      {"answer": "Purple", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Art & Design",
+    "question": "What is a mood board used for?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Displaying emotions", "is_correct": false},
+      {"answer": "Visual inspiration and concept development", "is_correct": true},
+      {"answer": "Tracking project tasks", "is_correct": false},
+      {"answer": "Color correction", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Art & Design",
+    "question": "Which of these are Adobe Creative Cloud applications?",
+    "has_multiple_answers": true,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Photoshop", "is_correct": true},
+      {"answer": "Word", "is_correct": false},
+      {"answer": "Illustrator", "is_correct": true},
+      {"answer": "Excel", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Art & Design",
+    "question": "What is kerning in typography?",
+    "has_multiple_answers": false,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "Font weight", "is_correct": false},
+      {"answer": "Space between individual letters", "is_correct": true},
+      {"answer": "Line height", "is_correct": false},
+      {"answer": "Font style", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Art & Design",
+    "question": "Who painted 'The Persistence of Memory' (melting clocks)?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Pablo Picasso", "is_correct": false},
+      {"answer": "Salvador Dalí", "is_correct": true},
+      {"answer": "René Magritte", "is_correct": false},
+      {"answer": "Joan Miró", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Art & Design",
+    "question": "What is the rule of thirds in composition?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Using three colors", "is_correct": false},
+      {"answer": "Dividing image into 9 equal parts", "is_correct": true},
+      {"answer": "Three focal points", "is_correct": false},
+      {"answer": "Three layers", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Art & Design",
+    "question": "Which of these are art mediums?",
+    "has_multiple_answers": true,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Oil paint", "is_correct": true},
+      {"answer": "Algorithm", "is_correct": false},
+      {"answer": "Watercolor", "is_correct": true},
+      {"answer": "Binary", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Art & Design",
+    "question": "What is vector graphics?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Pixel-based images", "is_correct": false},
+      {"answer": "Math-based scalable graphics", "is_correct": true},
+      {"answer": "3D models", "is_correct": false},
+      {"answer": "Compressed images", "is_correct": false}
+    ]
+  },
+  {
+    "category": "History",
+    "question": "In what year did World War II end?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "1943", "is_correct": false},
+      {"answer": "1944", "is_correct": false},
+      {"answer": "1945", "is_correct": true},
+      {"answer": "1946", "is_correct": false}
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Who was the first President of the United States?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Thomas Jefferson", "is_correct": false},
+      {"answer": "George Washington", "is_correct": true},
+      {"answer": "John Adams", "is_correct": false},
+      {"answer": "Benjamin Franklin", "is_correct": false}
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which of these were ancient civilizations?",
+    "has_multiple_answers": true,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Ancient Egypt", "is_correct": true},
+      {"answer": "United States", "is_correct": false},
+      {"answer": "Ancient Rome", "is_correct": true},
+      {"answer": "Canada", "is_correct": false}
+    ]
+  },
+  {
+    "category": "History",
+    "question": "What year did the Berlin Wall fall?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "1987", "is_correct": false},
+      {"answer": "1988", "is_correct": false},
+      {"answer": "1989", "is_correct": true},
+      {"answer": "1990", "is_correct": false}
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Who discovered America in 1492?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Ferdinand Magellan", "is_correct": false},
+      {"answer": "Christopher Columbus", "is_correct": true},
+      {"answer": "Amerigo Vespucci", "is_correct": false},
+      {"answer": "Vasco da Gama", "is_correct": false}
+    ]
+  },
+  {
+    "category": "History",
+    "question": "What was the name of the ship that brought the Pilgrims to America?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Santa Maria", "is_correct": false},
+      {"answer": "Mayflower", "is_correct": true},
+      {"answer": "Titanic", "is_correct": false},
+      {"answer": "Beagle", "is_correct": false}
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which of these were Allied powers in World War II?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "United States", "is_correct": true},
+      {"answer": "Germany", "is_correct": false},
+      {"answer": "Soviet Union", "is_correct": true},
+      {"answer": "Japan", "is_correct": false}
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Who was the first man on the moon?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Buzz Aldrin", "is_correct": false},
+      {"answer": "Neil Armstrong", "is_correct": true},
+      {"answer": "Yuri Gagarin", "is_correct": false},
+      {"answer": "John Glenn", "is_correct": false}
+    ]
+  },
+  {
+    "category": "History",
+    "question": "What ancient wonder was located in Alexandria?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Hanging Gardens", "is_correct": false},
+      {"answer": "Lighthouse of Alexandria", "is_correct": true},
+      {"answer": "Colossus of Rhodes", "is_correct": false},
+      {"answer": "Temple of Artemis", "is_correct": false}
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which empire was ruled by Julius Caesar?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Greek Empire", "is_correct": false},
+      {"answer": "Roman Empire", "is_correct": true},
+      {"answer": "Persian Empire", "is_correct": false},
+      {"answer": "Byzantine Empire", "is_correct": false}
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which of these events occurred in the 20th century?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "World War I", "is_correct": true},
+      {"answer": "American Revolution", "is_correct": false},
+      {"answer": "Moon landing", "is_correct": true},
+      {"answer": "French Revolution", "is_correct": false}
+    ]
+  },
+  {
+    "category": "History",
+    "question": "What year did the Titanic sink?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "1910", "is_correct": false},
+      {"answer": "1911", "is_correct": false},
+      {"answer": "1912", "is_correct": true},
+      {"answer": "1913", "is_correct": false}
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Who wrote the Declaration of Independence?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "George Washington", "is_correct": false},
+      {"answer": "Thomas Jefferson", "is_correct": true},
+      {"answer": "Benjamin Franklin", "is_correct": false},
+      {"answer": "John Adams", "is_correct": false}
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which of these were pharaohs of ancient Egypt?",
+    "has_multiple_answers": true,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "Tutankhamun", "is_correct": true},
+      {"answer": "Nero", "is_correct": false},
+      {"answer": "Cleopatra", "is_correct": true},
+      {"answer": "Augustus", "is_correct": false}
+    ]
+  },
+  {
+    "category": "History",
+    "question": "What was the Cold War?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "A war in Antarctica", "is_correct": false},
+      {"answer": "Tension between US and USSR", "is_correct": true},
+      {"answer": "A winter battle", "is_correct": false},
+      {"answer": "A trade dispute", "is_correct": false}
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Who was the British Prime Minister during most of WWII?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Neville Chamberlain", "is_correct": false},
+      {"answer": "Winston Churchill", "is_correct": true},
+      {"answer": "Clement Attlee", "is_correct": false},
+      {"answer": "Anthony Eden", "is_correct": false}
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which of these are Renaissance artists?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Leonardo da Vinci", "is_correct": true},
+      {"answer": "Pablo Picasso", "is_correct": false},
+      {"answer": "Michelangelo", "is_correct": true},
+      {"answer": "Vincent van Gogh", "is_correct": false}
+    ]
+  },
+  {
+    "category": "History",
+    "question": "What was the main cause of the French Revolution?",
+    "has_multiple_answers": false,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "Foreign invasion", "is_correct": false},
+      {"answer": "Social inequality and economic crisis", "is_correct": true},
+      {"answer": "Religious conflict", "is_correct": false},
+      {"answer": "Natural disasters", "is_correct": false}
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Who invented the printing press?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Leonardo da Vinci", "is_correct": false},
+      {"answer": "Johannes Gutenberg", "is_correct": true},
+      {"answer": "Benjamin Franklin", "is_correct": false},
+      {"answer": "Thomas Edison", "is_correct": false}
+    ]
+  },
+  {
+    "category": "History",
+    "question": "What year did World War I begin?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "1912", "is_correct": false},
+      {"answer": "1913", "is_correct": false},
+      {"answer": "1914", "is_correct": true},
+      {"answer": "1915", "is_correct": false}
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which of these empires existed in the medieval period?",
+    "has_multiple_answers": true,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "Byzantine Empire", "is_correct": true},
+      {"answer": "Soviet Union", "is_correct": false},
+      {"answer": "Ottoman Empire", "is_correct": true},
+      {"answer": "United States", "is_correct": false}
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Who was the longest-reigning British monarch before Elizabeth II?",
+    "has_multiple_answers": false,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "Queen Victoria", "is_correct": true},
+      {"answer": "King George III", "is_correct": false},
+      {"answer": "King Henry VIII", "is_correct": false},
+      {"answer": "Queen Elizabeth I", "is_correct": false}
+    ]
+  },
+  {
+    "category": "History",
+    "question": "What was the Silk Road?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "A road made of silk", "is_correct": false},
+      {"answer": "Ancient trade route", "is_correct": true},
+      {"answer": "A Chinese invention", "is_correct": false},
+      {"answer": "A modern highway", "is_correct": false}
+    ]
+  },
+  {
+    "category": "History",
+    "question": "Which of these were medieval weapons?",
+    "has_multiple_answers": true,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Crossbow", "is_correct": true},
+      {"answer": "Machine gun", "is_correct": false},
+      {"answer": "Sword", "is_correct": true},
+      {"answer": "Grenade", "is_correct": false}
+    ]
+  },
+  {
+    "category": "History",
+    "question": "What was the Magna Carta?",
+    "has_multiple_answers": false,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "A medieval weapon", "is_correct": false},
+      {"answer": "A charter of rights", "is_correct": true},
+      {"answer": "A trade agreement", "is_correct": false},
+      {"answer": "A religious text", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Languages",
+    "question": "How many letters are in the English alphabet?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "24", "is_correct": false},
+      {"answer": "25", "is_correct": false},
+      {"answer": "26", "is_correct": true},
+      {"answer": "27", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Languages",
+    "question": "What is the most spoken language in the world by native speakers?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "English", "is_correct": false},
+      {"answer": "Mandarin Chinese", "is_correct": true},
+      {"answer": "Spanish", "is_correct": false},
+      {"answer": "Hindi", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Languages",
+    "question": "Which of these are Romance languages?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "French", "is_correct": true},
+      {"answer": "German", "is_correct": false},
+      {"answer": "Spanish", "is_correct": true},
+      {"answer": "English", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Languages",
+    "question": "What does 'bonjour' mean in French?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Goodbye", "is_correct": false},
+      {"answer": "Hello", "is_correct": true},
+      {"answer": "Thank you", "is_correct": false},
+      {"answer": "Please", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Languages",
+    "question": "Which language uses Cyrillic script?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Greek", "is_correct": false},
+      {"answer": "Russian", "is_correct": true},
+      {"answer": "Arabic", "is_correct": false},
+      {"answer": "Hindi", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Languages",
+    "question": "What is a synonym?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Opposite meaning word", "is_correct": false},
+      {"answer": "Similar meaning word", "is_correct": true},
+      {"answer": "Rhyming word", "is_correct": false},
+      {"answer": "Foreign word", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Languages",
+    "question": "Which of these are tonal languages?",
+    "has_multiple_answers": true,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "Mandarin", "is_correct": true},
+      {"answer": "English", "is_correct": false},
+      {"answer": "Thai", "is_correct": true},
+      {"answer": "Spanish", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Languages",
+    "question": "What is the study of word meanings called?",
+    "has_multiple_answers": false,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "Syntax", "is_correct": false},
+      {"answer": "Semantics", "is_correct": true},
+      {"answer": "Phonetics", "is_correct": false},
+      {"answer": "Etymology", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Languages",
+    "question": "How do you say 'thank you' in Spanish?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Por favor", "is_correct": false},
+      {"answer": "Gracias", "is_correct": true},
+      {"answer": "Hola", "is_correct": false},
+      {"answer": "Adiós", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Languages",
+    "question": "Which of these languages use the Latin alphabet?",
+    "has_multiple_answers": true,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "English", "is_correct": true},
+      {"answer": "Arabic", "is_correct": false},
+      {"answer": "German", "is_correct": true},
+      {"answer": "Chinese", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Languages",
+    "question": "What is an antonym?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Similar meaning word", "is_correct": false},
+      {"answer": "Opposite meaning word", "is_correct": true},
+      {"answer": "Foreign word", "is_correct": false},
+      {"answer": "Made-up word", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Languages",
+    "question": "Which language has the most native speakers in Latin America?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Portuguese", "is_correct": false},
+      {"answer": "Spanish", "is_correct": true},
+      {"answer": "English", "is_correct": false},
+      {"answer": "French", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Languages",
+    "question": "What is a palindrome?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "A rhyming word", "is_correct": false},
+      {"answer": "A word that reads same forwards/backwards", "is_correct": true},
+      {"answer": "A compound word", "is_correct": false},
+      {"answer": "A foreign word", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Languages",
+    "question": "Which of these are Slavic languages?",
+    "has_multiple_answers": true,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "Polish", "is_correct": true},
+      {"answer": "Finnish", "is_correct": false},
+      {"answer": "Czech", "is_correct": true},
+      {"answer": "Hungarian", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Languages",
+    "question": "What is the official language of Brazil?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Spanish", "is_correct": false},
+      {"answer": "Portuguese", "is_correct": true},
+      {"answer": "English", "is_correct": false},
+      {"answer": "French", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Languages",
+    "question": "What is grammar?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Study of words", "is_correct": false},
+      {"answer": "Rules of language structure", "is_correct": true},
+      {"answer": "Pronunciation guide", "is_correct": false},
+      {"answer": "Language history", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Languages",
+    "question": "Which of these are Germanic languages?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "English", "is_correct": true},
+      {"answer": "French", "is_correct": false},
+      {"answer": "German", "is_correct": true},
+      {"answer": "Italian", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Languages",
+    "question": "What is the most widely learned second language?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Spanish", "is_correct": false},
+      {"answer": "English", "is_correct": true},
+      {"answer": "Mandarin", "is_correct": false},
+      {"answer": "French", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Languages",
+    "question": "What is a homophone?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Words that look the same", "is_correct": false},
+      {"answer": "Words that sound the same", "is_correct": true},
+      {"answer": "Words that mean the same", "is_correct": false},
+      {"answer": "Words from the same origin", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Languages",
+    "question": "Which of these languages are written right to left?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Arabic", "is_correct": true},
+      {"answer": "English", "is_correct": false},
+      {"answer": "Hebrew", "is_correct": true},
+      {"answer": "French", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the largest ocean on Earth?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Atlantic Ocean", "is_correct": false},
+      {"answer": "Pacific Ocean", "is_correct": true},
+      {"answer": "Indian Ocean", "is_correct": false},
+      {"answer": "Arctic Ocean", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of France?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "London", "is_correct": false},
+      {"answer": "Paris", "is_correct": true},
+      {"answer": "Rome", "is_correct": false},
+      {"answer": "Berlin", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which of these are continents?",
+    "has_multiple_answers": true,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Africa", "is_correct": true},
+      {"answer": "India", "is_correct": false},
+      {"answer": "Asia", "is_correct": true},
+      {"answer": "Greenland", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the longest river in the world?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Amazon River", "is_correct": false},
+      {"answer": "Nile River", "is_correct": true},
+      {"answer": "Mississippi River", "is_correct": false},
+      {"answer": "Yangtze River", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "How many countries are in Africa?",
+    "has_multiple_answers": false,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "48", "is_correct": false},
+      {"answer": "50", "is_correct": false},
+      {"answer": "54", "is_correct": true},
+      {"answer": "58", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the highest mountain in the world?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "K2", "is_correct": false},
+      {"answer": "Mount Everest", "is_correct": true},
+      {"answer": "Kilimanjaro", "is_correct": false},
+      {"answer": "Denali", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which of these countries are in South America?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Brazil", "is_correct": true},
+      {"answer": "Mexico", "is_correct": false},
+      {"answer": "Argentina", "is_correct": true},
+      {"answer": "Spain", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the smallest country in the world?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Monaco", "is_correct": false},
+      {"answer": "Vatican City", "is_correct": true},
+      {"answer": "San Marino", "is_correct": false},
+      {"answer": "Liechtenstein", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which desert is the largest hot desert in the world?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Gobi Desert", "is_correct": false},
+      {"answer": "Sahara Desert", "is_correct": true},
+      {"answer": "Arabian Desert", "is_correct": false},
+      {"answer": "Kalahari Desert", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Japan?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Beijing", "is_correct": false},
+      {"answer": "Tokyo", "is_correct": true},
+      {"answer": "Seoul", "is_correct": false},
+      {"answer": "Bangkok", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which of these are island nations?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Japan", "is_correct": true},
+      {"answer": "Brazil", "is_correct": false},
+      {"answer": "Iceland", "is_correct": true},
+      {"answer": "Germany", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What ocean is located between Africa and Australia?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Atlantic Ocean", "is_correct": false},
+      {"answer": "Indian Ocean", "is_correct": true},
+      {"answer": "Pacific Ocean", "is_correct": false},
+      {"answer": "Arctic Ocean", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which country has the most population?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "India", "is_correct": false},
+      {"answer": "China", "is_correct": true},
+      {"answer": "United States", "is_correct": false},
+      {"answer": "Indonesia", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the largest country by land area?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Canada", "is_correct": false},
+      {"answer": "Russia", "is_correct": true},
+      {"answer": "China", "is_correct": false},
+      {"answer": "United States", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which of these cities are capitals?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "London", "is_correct": true},
+      {"answer": "New York", "is_correct": false},
+      {"answer": "Berlin", "is_correct": true},
+      {"answer": "Sydney", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What strait separates Africa from Europe?",
+    "has_multiple_answers": false,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "Bering Strait", "is_correct": false},
+      {"answer": "Strait of Gibraltar", "is_correct": true},
+      {"answer": "Strait of Malacca", "is_correct": false},
+      {"answer": "Bosporus Strait", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which continent is the driest inhabited continent?",
+    "has_multiple_answers": false,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "Africa", "is_correct": false},
+      {"answer": "Australia", "is_correct": true},
+      {"answer": "Asia", "is_correct": false},
+      {"answer": "South America", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the capital of Canada?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Toronto", "is_correct": false},
+      {"answer": "Ottawa", "is_correct": true},
+      {"answer": "Vancouver", "is_correct": false},
+      {"answer": "Montreal", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which of these rivers are in Europe?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Thames", "is_correct": true},
+      {"answer": "Amazon", "is_correct": false},
+      {"answer": "Danube", "is_correct": true},
+      {"answer": "Mississippi", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "What is the Great Barrier Reef?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "A mountain range", "is_correct": false},
+      {"answer": "A coral reef system", "is_correct": true},
+      {"answer": "A desert", "is_correct": false},
+      {"answer": "A river", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Geography",
+    "question": "Which country is known as the Land of the Rising Sun?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "China", "is_correct": false},
+      {"answer": "Japan", "is_correct": true},
+      {"answer": "Korea", "is_correct": false},
+      {"answer": "Thailand", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Biology",
+    "question": "What is the powerhouse of the cell?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Nucleus", "is_correct": false},
+      {"answer": "Mitochondria", "is_correct": true},
+      {"answer": "Ribosome", "is_correct": false},
+      {"answer": "Chloroplast", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Biology",
+    "question": "What is DNA?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "A type of protein", "is_correct": false},
+      {"answer": "Genetic material", "is_correct": true},
+      {"answer": "A vitamin", "is_correct": false},
+      {"answer": "A hormone", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Biology",
+    "question": "Which of these are parts of a plant cell?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Cell wall", "is_correct": true},
+      {"answer": "Flagellum", "is_correct": false},
+      {"answer": "Chloroplast", "is_correct": true},
+      {"answer": "Cilia", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Biology",
+    "question": "What is photosynthesis?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Animal respiration", "is_correct": false},
+      {"answer": "Plants making food from sunlight", "is_correct": true},
+      {"answer": "Cell division", "is_correct": false},
+      {"answer": "Protein synthesis", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Biology",
+    "question": "How many chambers does the human heart have?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "2", "is_correct": false},
+      {"answer": "3", "is_correct": false},
+      {"answer": "4", "is_correct": true},
+      {"answer": "5", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Biology",
+    "question": "What is the basic unit of heredity?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Cell", "is_correct": false},
+      {"answer": "Gene", "is_correct": true},
+      {"answer": "Chromosome", "is_correct": false},
+      {"answer": "Protein", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Biology",
+    "question": "Which of these are types of blood cells?",
+    "has_multiple_answers": true,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Red blood cells", "is_correct": true},
+      {"answer": "Brain cells", "is_correct": false},
+      {"answer": "White blood cells", "is_correct": true},
+      {"answer": "Muscle cells", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Biology",
+    "question": "What is the largest organ in the human body?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Heart", "is_correct": false},
+      {"answer": "Skin", "is_correct": true},
+      {"answer": "Liver", "is_correct": false},
+      {"answer": "Brain", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Biology",
+    "question": "What is evolution?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Growth of organisms", "is_correct": false},
+      {"answer": "Change in species over time", "is_correct": true},
+      {"answer": "Cell reproduction", "is_correct": false},
+      {"answer": "Adaptation to environment", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Biology",
+    "question": "How many pairs of chromosomes do humans have?",
+    "has_multiple_answers": false,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "21", "is_correct": false},
+      {"answer": "22", "is_correct": false},
+      {"answer": "23", "is_correct": true},
+      {"answer": "24", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Biology",
+    "question": "Which of these are vertebrates?",
+    "has_multiple_answers": true,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Fish", "is_correct": true},
+      {"answer": "Insects", "is_correct": false},
+      {"answer": "Birds", "is_correct": true},
+      {"answer": "Worms", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Biology",
+    "question": "What is osmosis?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Active transport", "is_correct": false},
+      {"answer": "Passive movement of water", "is_correct": true},
+      {"answer": "Cell division", "is_correct": false},
+      {"answer": "Protein synthesis", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Biology",
+    "question": "What kingdom do mushrooms belong to?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Plantae", "is_correct": false},
+      {"answer": "Fungi", "is_correct": true},
+      {"answer": "Animalia", "is_correct": false},
+      {"answer": "Protista", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Biology",
+    "question": "What is the function of red blood cells?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Fight infection", "is_correct": false},
+      {"answer": "Carry oxygen", "is_correct": true},
+      {"answer": "Clot blood", "is_correct": false},
+      {"answer": "Produce antibodies", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Biology",
+    "question": "Which of these are parts of the nervous system?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Brain", "is_correct": true},
+      {"answer": "Heart", "is_correct": false},
+      {"answer": "Spinal cord", "is_correct": true},
+      {"answer": "Liver", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Biology",
+    "question": "What is metabolism?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Cell division", "is_correct": false},
+      {"answer": "Chemical processes in living organisms", "is_correct": true},
+      {"answer": "Immune response", "is_correct": false},
+      {"answer": "Muscle contraction", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Biology",
+    "question": "What is the scientific name for humans?",
+    "has_multiple_answers": false,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "Homo erectus", "is_correct": false},
+      {"answer": "Homo sapiens", "is_correct": true},
+      {"answer": "Homo habilis", "is_correct": false},
+      {"answer": "Homo neanderthalensis", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Biology",
+    "question": "Which of these are types of muscle tissue?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Cardiac", "is_correct": true},
+      {"answer": "Epithelial", "is_correct": false},
+      {"answer": "Skeletal", "is_correct": true},
+      {"answer": "Nervous", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Biology",
+    "question": "What is the function of the liver?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Pump blood", "is_correct": false},
+      {"answer": "Detoxification and metabolism", "is_correct": true},
+      {"answer": "Digest food", "is_correct": false},
+      {"answer": "Filter air", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Biology",
+    "question": "What are antibodies?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Hormones", "is_correct": false},
+      {"answer": "Immune system proteins", "is_correct": true},
+      {"answer": "Enzymes", "is_correct": false},
+      {"answer": "Vitamins", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Astronomy",
+    "question": "What is the closest star to Earth?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Alpha Centauri", "is_correct": false},
+      {"answer": "The Sun", "is_correct": true},
+      {"answer": "Sirius", "is_correct": false},
+      {"answer": "Proxima Centauri", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Astronomy",
+    "question": "How many planets are in our solar system?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "7", "is_correct": false},
+      {"answer": "8", "is_correct": true},
+      {"answer": "9", "is_correct": false},
+      {"answer": "10", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Astronomy",
+    "question": "Which of these are gas giants?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Jupiter", "is_correct": true},
+      {"answer": "Mars", "is_correct": false},
+      {"answer": "Saturn", "is_correct": true},
+      {"answer": "Earth", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Astronomy",
+    "question": "What is a light-year?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "A year on a light planet", "is_correct": false},
+      {"answer": "Distance light travels in a year", "is_correct": true},
+      {"answer": "Time for light to reach Earth", "is_correct": false},
+      {"answer": "365 days of light", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Astronomy",
+    "question": "What is the largest planet in our solar system?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Saturn", "is_correct": false},
+      {"answer": "Jupiter", "is_correct": true},
+      {"answer": "Neptune", "is_correct": false},
+      {"answer": "Earth", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Astronomy",
+    "question": "What is a supernova?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "A new star", "is_correct": false},
+      {"answer": "An exploding star", "is_correct": true},
+      {"answer": "A black hole", "is_correct": false},
+      {"answer": "A galaxy", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Astronomy",
+    "question": "Which of these are types of galaxies?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Spiral", "is_correct": true},
+      {"answer": "Square", "is_correct": false},
+      {"answer": "Elliptical", "is_correct": true},
+      {"answer": "Triangular", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Astronomy",
+    "question": "What is the name of Earth's natural satellite?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Luna", "is_correct": false},
+      {"answer": "The Moon", "is_correct": true},
+      {"answer": "Titan", "is_correct": false},
+      {"answer": "Europa", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Astronomy",
+    "question": "What is the Milky Way?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "A planet", "is_correct": false},
+      {"answer": "Our galaxy", "is_correct": true},
+      {"answer": "A star cluster", "is_correct": false},
+      {"answer": "A constellation", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Astronomy",
+    "question": "What is the hottest planet in our solar system?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Mercury", "is_correct": false},
+      {"answer": "Venus", "is_correct": true},
+      {"answer": "Mars", "is_correct": false},
+      {"answer": "Jupiter", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Astronomy",
+    "question": "Which of these are dwarf planets?",
+    "has_multiple_answers": true,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "Pluto", "is_correct": true},
+      {"answer": "Mars", "is_correct": false},
+      {"answer": "Eris", "is_correct": true},
+      {"answer": "Neptune", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Astronomy",
+    "question": "What is a black hole?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "A dark planet", "is_correct": false},
+      {"answer": "Region with extreme gravity", "is_correct": true},
+      {"answer": "Empty space", "is_correct": false},
+      {"answer": "A type of star", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Astronomy",
+    "question": "How long does it take Earth to orbit the Sun?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "24 hours", "is_correct": false},
+      {"answer": "365 days", "is_correct": true},
+      {"answer": "30 days", "is_correct": false},
+      {"answer": "12 months", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Astronomy",
+    "question": "What causes tides on Earth?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Earth's rotation", "is_correct": false},
+      {"answer": "Moon's gravitational pull", "is_correct": true},
+      {"answer": "Wind", "is_correct": false},
+      {"answer": "Sun's heat", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Astronomy",
+    "question": "Which of these are inner planets?",
+    "has_multiple_answers": true,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Mars", "is_correct": true},
+      {"answer": "Jupiter", "is_correct": false},
+      {"answer": "Venus", "is_correct": true},
+      {"answer": "Saturn", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Astronomy",
+    "question": "What is a constellation?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "A single star", "is_correct": false},
+      {"answer": "Pattern of stars", "is_correct": true},
+      {"answer": "A planet", "is_correct": false},
+      {"answer": "A moon", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Astronomy",
+    "question": "What is the asteroid belt?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Ring around Saturn", "is_correct": false},
+      {"answer": "Region between Mars and Jupiter", "is_correct": true},
+      {"answer": "Edge of solar system", "is_correct": false},
+      {"answer": "Moon orbit", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Astronomy",
+    "question": "What is the Big Bang theory?",
+    "has_multiple_answers": false,
+    "difficulty": "hard",
+    "choices": [
+      {"answer": "Formation of Earth", "is_correct": false},
+      {"answer": "Origin of the universe", "is_correct": true},
+      {"answer": "Formation of stars", "is_correct": false},
+      {"answer": "End of universe", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Astronomy",
+    "question": "Which of these are moon phases?",
+    "has_multiple_answers": true,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Full moon", "is_correct": true},
+      {"answer": "Half moon", "is_correct": false},
+      {"answer": "New moon", "is_correct": true},
+      {"answer": "Dark moon", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Astronomy",
+    "question": "What is a comet?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "A type of star", "is_correct": false},
+      {"answer": "Icy body with a tail", "is_correct": true},
+      {"answer": "A small planet", "is_correct": false},
+      {"answer": "A meteor", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Health & Fitness",
+    "question": "How many hours of sleep do adults typically need?",
+    "has_multiple_answers": false,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "5-6 hours", "is_correct": false},
+      {"answer": "7-9 hours", "is_correct": true},
+      {"answer": "10-12 hours", "is_correct": false},
+      {"answer": "4-5 hours", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Health & Fitness",
+    "question": "What is BMI?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Blood Mass Index", "is_correct": false},
+      {"answer": "Body Mass Index", "is_correct": true},
+      {"answer": "Bone Mineral Index", "is_correct": false},
+      {"answer": "Basic Metabolic Index", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Health & Fitness",
+    "question": "Which of these are cardio exercises?",
+    "has_multiple_answers": true,
+    "difficulty": "easy",
+    "choices": [
+      {"answer": "Running", "is_correct": true},
+      {"answer": "Weightlifting", "is_correct": false},
+      {"answer": "Swimming", "is_correct": true},
+      {"answer": "Stretching", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Health & Fitness",
+    "question": "What is the recommended daily water intake?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "4 glasses", "is_correct": false},
+      {"answer": "8 glasses", "is_correct": true},
+      {"answer": "12 glasses", "is_correct": false},
+      {"answer": "16 glasses", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Health & Fitness",
+    "question": "What does aerobic mean?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Without oxygen", "is_correct": false},
+      {"answer": "With oxygen", "is_correct": true},
+      {"answer": "With weights", "is_correct": false},
+      {"answer": "High intensity", "is_correct": false}
+    ]
+  },
+  {
+    "category": "Health & Fitness",
+    "question": "What is the largest muscle in the human body?",
+    "has_multiple_answers": false,
+    "difficulty": "normal",
+    "choices": [
+      {"answer": "Bicep", "is_correct": false},
+      {"answer": "Gluteus maximus", "is_correct": true},
+      {"answer": "Quadriceps", "is_correct": false},
+      {"answer": "Heart", "is_correct": false}
+    ]
+  }
+]

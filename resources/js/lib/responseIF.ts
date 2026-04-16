@@ -5,6 +5,9 @@ export interface UserIF{
 export interface CategoryIF{
     id:number
     name:string
+    icon:string
+    color:string
+    quizzes_count?:number
 }
 
 export interface ChoiceIF{
@@ -44,6 +47,8 @@ export interface QuizAdminIF{
 }
 
 export interface GameIF{
+    negative:boolean
+    limitedTime:number
     startingTime:number
     quizez:Array<QuizIF>
 }
@@ -52,8 +57,21 @@ export interface ResultIF{
     notAnswred:number
     correct:number
     worng:number
+    score:number
     time:number
     startingTime:number
+}
+
+export interface RecordIF{
+    user_name:string
+    not_answred:number
+    correct:number
+    worng:number
+    score:number
+    time:number
+    starting_time:number
+    negative:string
+    quizzes?:Array<QuizAdminIF>
 }
 
 export interface Paginated<T> {
@@ -74,3 +92,12 @@ export interface Paginated<T> {
         active: boolean;
     }[];
 }
+
+export interface Filter{
+    orderBy:string
+    orderDirection:'asc'|'desc'
+    search?:string
+    category?:Array<string>
+}
+
+

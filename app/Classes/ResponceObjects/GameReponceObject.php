@@ -12,7 +12,9 @@ final class GameReponceObject implements JsonSerializable,Cachable{
     private $startingTime;
 
     public function __construct(
-        private CachableArray $quizez
+        private CachableArray $quizez,
+        private bool $negative,
+        private int $limitedTime
     ){
         $this->startingTime = now()->timestamp;
     }
@@ -34,6 +36,8 @@ final class GameReponceObject implements JsonSerializable,Cachable{
 
     public function jsonSerialize() : mixed {
         return [
+            "negative"=>$this->negative,
+            "limitedTime"=>$this->limitedTime,
             "startingTime"=>$this->startingTime,
             "quizez"=>array_map(fn(QuizAttemptResponceObject $item)=>$item->jsonSerialize() , $this->getQuizez()),
         ];
@@ -41,13 +45,16 @@ final class GameReponceObject implements JsonSerializable,Cachable{
 
     public function toCache() : array {
         return [
+            "negative"=>$this->negative,
+            "limitedTime"=>$this->limitedTime,
             "startingTime"=>$this->startingTime,
             "quizez"=>$this->quizez->toCache(),
-
         ];
     }
 
     public function fromCache(array $input):self{
+        $this->negative = $input["negative"];
+        $this->limitedTime = $input["limitedTime"];
         $this->startingTime = $input["startingTime"];
         $this->quizez->fromCache($input["quizez"]);
         return $this;
@@ -66,13 +73,27 @@ final class GameReponceObject implements JsonSerializable,Cachable{
             }
         }
 
+        $score = $this->negative?max($correct-$worng,0):$correct;
+
+        $quizez = $this->quizez->getArray();
+
+        $n = count($quizez);
+        $result = round($score/$n*100);
+
         return new ResultResponceObject(
             $notAnswred,
             $correct,
             $worng,
+            $result,
             now()->timestamp - $this->startingTime,
             $this->startingTime,
+            $this->negative,
+            $quizez
         );
+    }
+
+    public function hasEnded(){
+        return $this->limitedTime<0?false:now()->timestamp>$this->startingTime+$this->limitedTime;
     }
 }
 

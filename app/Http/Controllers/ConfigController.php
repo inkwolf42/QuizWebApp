@@ -30,10 +30,7 @@ class ConfigController extends Controller
         return Inertia::render("User/Config",[
             "targetUrl"=>route("start.quiz"),
             "user"=>$usernameSession->json(),
-            "Categories"=>Category::all()->map(function($category){
-                $categoryResponceObject = new CategoryResponceObject($category);
-                return $categoryResponceObject->jsonSerialize();
-            })
+            "Categories"=>Category::all()
         ]);
     }
 
@@ -42,7 +39,9 @@ class ConfigController extends Controller
             [
                 "selectedCatigories"=>"array|max:5",
                 "selectedCatigories.*"=>"integer",
-                "questions"=>"required|integer|min:5|max:20"
+                "questions"=>"required|integer|min:1|max:50",
+                "negative"=>"required|boolean",
+                "limitedTime"=>"required|int"
             ]
         );
 
@@ -60,8 +59,13 @@ class ConfigController extends Controller
 
         $quizes = $selactor->pickRandom();
 
+        
 
-        $quizSession->set(new GameReponceObject(new CachableArray($quizes, new QuizAttemptResponceObject())));
+        $quizSession->set(new GameReponceObject(
+            new CachableArray($quizes, new QuizAttemptResponceObject()),
+            $values["negative"],
+            $values["limitedTime"]
+        ));
 
 
 
