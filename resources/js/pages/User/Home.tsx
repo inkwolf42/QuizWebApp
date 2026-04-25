@@ -46,7 +46,7 @@ export default function Home({targetUrl}:{targetUrl:string}) {
                         label='Username '
                         error={errors.name}
                         />
-                    <button className='bg-red-200 hover:bg-red-400 transition-colors p-1 rounded-sm font-bold uppercase text-white' type="submit" disabled={processing}>Login</button>
+                    <button className='bg-red-400 hover:bg-red-200 transition-colors p-1 rounded-sm font-bold uppercase text-white' type="submit" disabled={processing}>Login</button>
                 </div>
             </form>
         </div>

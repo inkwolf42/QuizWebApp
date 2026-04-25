@@ -15,7 +15,7 @@ class UserLoginController extends Controller
     public function __invoke(Request $request)
     {
         $validated = $request->validate([
-            "name"=>["required","min:5","string","max:50","regex:/^[A-Za-z0-9_]+$/"]
+            "name"=>["required","min:3","string","max:50","regex:/^[A-Za-z0-9_]+$/"]
         ]);
 
 

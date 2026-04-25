@@ -21,7 +21,7 @@ export default function LogedIn({children,title,isAdmin=false}:PropsWithChildren
                 <h1 className='font-extrabold text-4xl tracking-wider uppercase'>
                     {title}
                 </h1>
-                <button onClick={onLogout} className="bg-red-200 hover:bg-red-400 transition-colors p-1 rounded-sm font-bold uppercase text-white">
+                <button onClick={onLogout} className="bg-red-400 hover:bg-red-200 transition-colors p-1 rounded-sm font-bold uppercase text-white">
                     Log Out
                 </button>
             </header>
