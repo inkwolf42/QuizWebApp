@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Carbon\CarbonImmutable;
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Date;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\URL;
@@ -26,9 +27,9 @@ class AppServiceProvider extends ServiceProvider
     {
         if (app()->environment('production')) {
             URL::forceScheme('https');
-        }else{
-            $this->configureDefaults();
+            Artisan::call('config:clear');
         }
+        $this->configureDefaults();
     }
 
     /**
