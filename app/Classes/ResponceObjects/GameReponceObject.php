@@ -73,7 +73,7 @@ final class GameReponceObject implements JsonSerializable,Cachable{
             }
         }
 
-        $score = $this->negative?max($correct-$worng,0):$correct;
+        $score = $this->negative?max($correct-$worng*0.5,0):$correct;
 
         $quizez = $this->quizez->getArray();
 
